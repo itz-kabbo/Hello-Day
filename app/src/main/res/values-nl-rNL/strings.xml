@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flux</string>
+
+    <!-- Authentication -->
+    <string name="Auth_with_Biometric">Inloggen met biometrie</string>
+    <string name="Auth_Error">Fout: inloggen is mislukt</string>
+    <string name="Biometric_Title">Biometrisch inloggen</string>
+    <string name="Biometric_Subtitle">Gebruik je vingerafdruk of gezicht om in te loggen</string>
+    <string name="Biometric_Cancel">Annuleren</string>
+
+    <!-- Common UI Elements -->
+    <string name="Pin">Vastmaken</string>
+    <string name="Unpin">Losmaken</string>
+    <string name="Pinned">Vastgemaakt</string>
+    <string name="Dismiss">Afwijzen</string>
+    <string name="Confirm">Bevestigen</string>
+    <string name="Cancel">Annuleren</string>
+    <string name="Set">Instellen</string>
+    <string name="Custom">Aangepassen</string>
+    <string name="Today">Vandaag</string>
+    <string name="New">Nieuw</string>
+    <string name="Others">Anders</string>
+    <string name="Title">Titel</string>
+    <string name="Description">Beschrijving</string>
+    <string name="Amount">Bedrag</string>
+    <string name="at">om</string>
+    <string name="on">op</string>
+
+    <!-- Dialog Messages -->
+    <string name="deleteDialogTitle">Weet je het zeker dat je het wilt verwijderen?</string>
+    <string name="deleteDialogText">Dit kan niet ongedaan worden gemaakt, het zal alle gegevens permanent verwijderen.</string>
+    <string name="removeDialogTitle">Ruimte verwijderen?</string>
+    <string name="removeDialogText">Dit kan niet ongedaan worden gemaakt, het zal alle gegevens van deze ruimte verwijderen.</string>
+
+    <!-- Permissions -->
+    <string name="Reminder_Permission">Schakel herinneringen in</string>
+    <string name="Notification_Permission">Schakel meldingen in</string>
+
+    <!-- Settings -->
+    <string name="Settings">Instellingen</string>
+
+    <!-- Settings - Customize -->
+    <string name="Customize">Aanpassen</string>
+    <string name="Customize_desc">Thema • Vorm • Contrast</string>
+    <string name="System_theme">Systeemthema</string>
+    <string name="System_theme_desc">Past zich automatisch aan het apparaat-thema aan</string>
+    <string name="Light_theme">Licht Thema</string>
+    <string name="Light_theme_desc">Wissel naar Licht thema</string>
+    <string name="Dark_theme">Donker Thema</string>
+    <string name="Dark_theme_desc">Wissel naar Donker thema</string>
+    <string name="Dynamic_theme">Dynamisch Thema</string>
+    <string name="Dynamic_theme_desc">Past zich automatisch aan de achtergrond aan</string>
+    <string name="Amoled_theme">Amoled Thema</string>
+    <string name="Amoled_theme_desc">Gebruik zwart voor achtergrond</string>
+    <string name="Themes">Thema\'s</string>
+    <string name="Shape">Vorm • Weergave</string>
+    <string name="Radius">Radius</string>
+    <string name="Radius_desc">Wissel Vorm</string>
+    <string name="Select_radius">Selecteer Radius</string>
+    <string name="Contrast">Contrast</string>
+    <string name="Low">Laag</string>
+    <string name="Medium">Gemiddeld</string>
+    <string name="High">Hoog</string>
+    <string name="Grid_View">Rasterweergave</string>
+    <string name="Grid_View_Desc">Verander notities weergave naar raster</string>
+    <string name="Monthly_View">Maandweergave</string>
+    <string name="Monthly_View_Desc">Verander naar maandkalenderweergave</string>
+    <string name="Hour_Format_24">24-Uurs aanduiding</string>
+    <string name="Hour_Format_24_Desc">Gebruik 24-uurs tijdsaanduiding</string>
+    <string name="Compact_Mode">Compacte modus</string>
+    <string name="Compact_Mode_Desc">Toon werkruimte in compacte modus</string>
+    <string name="Extreme_Compact_Mode">Extreme compacte modus</string>
+    <string name="Extreme_Compact_Mode_Desc">Verklein de ruimte tussen werkruimtes</string>
+    <string name="Theme_Palette">Thema Palet</string>
+    <string name="Font">Lettertype</string>
+    <string name="Fonts">Lettertypen</string>
+    <string name="Share_txt">Deel tekstbestand</string>
+    <string name="Share_md">Deel Markdown bestand</string>
+    <string name="Error_Share_txt">Mislukt om tekstbestand te delen</string>
+    <string name="Error_Share_md">Mislukt om .md bestand te delen</string>
+    <string name="Export_As">Exporteer als</string>
+    <string name="Plain_Text">Platte Tekst (.txt)</string>
+    <string name="Markdown">Markdown (.md)</string>
+    <string name="Change_Font">Verander lettertype</string>
+    <string name="share">Delen</string>
+    <string name="save">Opslaan</string>
+    <string name="print">Afdrukken</string>
+    <string name="delete">Verwijderen</string>
+    <string name="share_as">Delen als</string>
+    <string name="html">HTML</string>
+    <string name="image">Afbeelding</string>
+    <string name="Outline">Overzicht</string>
+    <string name="paragraph">Alinea</string>
+    <string name="words_excluding_punctuations">Woorden zonder leestekens</string>
+    <string name="lines">Regels</string>
+    <string name="show_line_numbers">Regelnummers weergeven</string>
+    <string name="show_line_numbers_desc">Regelnummers weergeven in de editor</string>
+    <string name="markdown_lint">Markdown-lint</string>
+    <string name="markdown_lint_desc">Markdown-indeling en syntaxis worden gecontroleerd</string>
+    <string name="color_palette">Kleurenpalet</string>
+    <string name="change_app_theme">App-thema wijzigen</string>
+
+    <!-- Settings - Privacy -->
+    <string name="Privacy">Privacy</string>
+    <string name="Privacy_desc">Schermbeveiliging • App Lock</string>
+    <string name="Screen_Protection">Schermbeveiliging</string>
+    <string name="Screen_Protection_Desc">Schakelt screenshots uit</string>
+    <string name="App_Lock">App Lock</string>
+    <string name="App_Lock_desc">Biometrisch inloggen</string>
+    <string name="Encrypt">Versleutelen</string>
+    <string name="Encrypt_Desc">Versleutel je gegevens wanneer je een back-up maakt</string>
+
+    <!-- Settings - Languages -->
+    <string name="Languages">Talen</string>
+    <string name="Languages_desc">Taal veranderen</string>
+    <string name="System_language">Systeemtaal</string>
+    <string name="System_language_desc">Past zich automatisch aan de apparaat-taal aan</string>
+
+    <!-- Settings - Backup -->
+    <string name="Backup">Back-up</string>
+    <string name="Backup_Description">Maak een back-up van je gegevens naar een bestand</string>
+    <string name="Restore">Herstellen</string>
+    <string name="Restore_Description">Herstel je gegevens van een back-upbestand</string>
+    <string name="reset">Resetten</string>
+    <string name="backup_frequency">Frequentie van automatische back-up</string>
+    <string name="reset_database">Database resetten</string>
+    <string name="clear_app_data">Alle appgegevens wissen</string>
+    <string name="never">Nooit</string>
+    <string name="daily">Dagelijks</string>
+    <string name="weekly">Wekelijks</string>
+    <string name="monthly">Maandelijks</string>
+    <string name="success">Geslaagd</string>
+
+    <!-- Settings - About -->
+    <string name="About">Over</string>
+    <string name="About_desc">Versie • Ontwikkelaars • Bronnenkode</string>
+    <string name="Build_type">Bouwtype</string>
+    <string name="Build_version">Bouwversie</string>
+    <string name="Developer">Ontwikkelaar</string>
+    <string name="Developer_Name">Ronit Chinda</string>
+    <string name="Source_Code">Broncode</string>
+    <string name="Github_Repository">Github Repository</string>
+    <string name="license">Licentie</string>
+    <string name="license_gpl3_only">GPL-3.0 Only</string>
+    <string name="user_guide_title">Gebruikershandleiding</string>
+    <string name="user_guide_description">Lees de handleiding om de applicatie volledig te benutten.</string>
+    <string name="privacy_policy_title">Privacybeleid</string>
+    <string name="privacy_policy_description">Privacybeleid van de applicatie.</string>
+    <string name="share_title">Delen</string>
+    <string name="share_description">Deel de applicatie met vrienden en familie.</string>
+    <string name="data_title">Gegevens</string>
+    <string name="data_subtitle">Back-up • Herstel</string>
+
+    <!-- Settings - Contact & Support -->
+    <string name="Contact">Contact</string>
+    <string name="Contact_desc">Functieaanvraag • Foutmelding</string>
+    <string name="Contact_desc2">Probleem melden op github</string>
+    <string name="Support">Ondersteuning</string>
+    <string name="Support_desc">Toon je waardering</string>
+    <string name="feature_request">Functieaanvraag / Suggestie</string>
+    <string name="feature_request_desc">Deel je ideeën in GitHub-discussies.</string>
+    <string name="bug_report">Bugrapport</string>
+    <string name="email">E-mail</string>
+    <string name="email_desc">E-mail ons voor feedback of ondersteuning.</string>
+    <string name="discord">Discord</string>
+    <string name="discord_desc">Word lid van het Discord-kanaal</string>
+    <string name="no_email_app">Geen e-mailapp gevonden</string>
+
+    <!-- Workspace -->
+    <string name="Home">Huis</string>
+    <string name="Edit_Workspace">Bewerk werkruimte</string>
+    <string name="Add_Workspace">Voeg werkruimte toe</string>
+    <string name="Search_Workspaces">Zoek werkruimtes…</string>
+    <string name="Delete_Workspace">Verwijder werkruimte</string>
+    <string name="Edit_Details">Bewerk gegevens</string>
+    <string name="Change_Cover">Verander omslag</string>
+    <string name="Change_Icon">Verander pictogram</string>
+    <string name="Lock_Workspace">Vergrendel werkruimte</string>
+    <string name="Unlock_Workspace">Ontgrendel werkruimte</string>
+    <string name="Add_Spaces">Voeg Ruimtes toe</string>
+    <string name="Add_Space">Voeg Ruimte toe</string>
+    <string name="Empty_Workspace">Geen werkruimte gevonden</string>
+    <string name="Wrong_Passkey">Onjuiste Toegangscode</string>
+    <string name="enterPasskey">Voer toegangscode in</string>
+    <string name="Remove_Cover">Omslag verwijderen</string>
+    <string name="Search_Here">Hier zoeken…</string>
+    <string name="current">Huidig</string>
+    <string name="add">Toevoegen</string>
+    <string name="workspace_deleted">Werkruimte verwijderd</string>
+
+    <!-- Space Management -->
+    <string name="Current">Huidig</string>
+    <string name="Available_Spaces">Beschikbare ruimtes</string>
+
+    <!-- Notes -->
+    <string name="Notes">notities</string>
+    <string name="Search_Notes">Zoek notities…</string>
+    <string name="Delete_Note">Verwijder notitie</string>
+    <string name="Empty_Notes">Geen notities gevonden</string>
+    <string name="Last_Edited">Laatste bewerking</string>
+    <string name="Word_Count">Aantal woorden</string>
+    <string name="Character_Count">Aantal tekens</string>
+    <string name="Labels">labels</string>
+    <string name="Empty_Labels">Geen labels gevonden</string>
+    <string name="Edit_Labels">Bewerk labels</string>
+    <string name="Add_Label">Voeg nieuwe label Toe</string>
+    <string name="Edit_Label">Bewerk label</string>
+    <string name="Select_Label">Selecteer label</string>
+    <string name="Export_Note">Exporteer notitie</string>
+    <string name="import_success">Succesvol geïmporteerd</string>
+    <string name="import_failed">Mislukt om notitie te importeren</string>
+    <string name="find">Zoeken</string>
+    <string name="replace">Vervangen</string>
+    <string name="record_audio">Audio opnemen</string>
+    <string name="tap_to_start">Tik om te starten</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="permission_required">Geef alstublieft opname-toestemming.</string>
+    <string name="task">Taak</string>
+    <string name="item_value">Itemwaarde</string>
+    <string name="list">Lijst</string>
+    <string name="column">Kolom</string>
+    <string name="row">Rij</string>
+    <string name="table">Tabel</string>
+    <string name="url">URL</string>
+    <string name="name">Naam</string>
+    <string name="link">Link</string>
+
+    <!-- To-Do -->
+    <string name="To_Do">Te Doen</string>
+    <string name="Empty_Lists">Geen lijst gevonden</string>
+    <string name="Edit_list">Bewerk lijst</string>
+    <string name="Add_Item">Voeg nieuw item toe</string>
+    <string name="more">…meer</string>
+
+    <!-- Habits -->
+    <string name="Habits">Gewoonten</string>
+    <string name="Empty_Habits">Geen gewoonte gevonden</string>
+    <string name="Started">Begonnen op</string>
+    <string name="Current_Streak">Huidige reeks: </string>
+    <string name="Best_Streak">Beste: </string>
+    <string name="Add_Habit">Voeg gewoonte toe</string>
+    <string name="Edit_Habit">Bewerk gewoonte</string>
+    <string name="completed_habits">Voltooid %1$d keer</string>
+    <string name="monday_short">Maa</string>
+    <string name="tuesday_short">Din</string>
+    <string name="wednesday_short">Woe</string>
+    <string name="thursday_short">Don</string>
+    <string name="friday_short">Vri</string>
+    <string name="saturday_short">Zat</string>
+    <string name="sunday_short">Zon</string>
+
+    <string name="past_habits">Verleden gewoonten</string>
+    <string name="time">Tijd</string>
+    <string name="repeat">Herhaal</string>
+    <string name="never_ends">Eindigt nooit</string>
+    <string name="ends_on">Eindigt Op</string>
+    <string name="mark_completed">Markeer als voltooid</string>
+    <string name="mark_pending">Markeer als in behandeling</string>
+    <string name="ends_on_date">Eindigt Op %1$s</string>
+    <string name="weekly_habit_completion">Wekelijkse gewoonte voltooiing</string>
+    <string name="habit_already_ended">Deze gewoonte is al beëindigd!</string>
+    <string name="cannot_mark_future_dates">Je kunt geen toekomstige data markeren!</string>
+    <string name="habit_starts_later">Je gewoonte begint later!</string>
+    <string name="date_not_in_schedule">Deze datum maakt geen deel uit van je gewoonte-schema.</string>
+
+    <!-- Events -->
+    <string name="Events">Evenementen</string>
+    <string name="Empty_Events">Geen evenementen gevonden</string>
+    <string name="Edit_Event">Bewerk evenement</string>
+    <string name="All_Day">Hele Dag</string>
+    <string name="Repeat_Task">Herhaal Taak</string>
+    <string name="Repeat">Herhaal</string>
+    <string name="Once">Een keer</string>
+    <string name="Weekly">Wekelijks</string>
+    <string name="Monthly">Maandelijks</string>
+    <string name="Yearly">Jaarlijks</string>
+    <string name="Status_Completed">Voltooid</string>
+    <string name="Status_Pending">In behandeling</string>
+    <string name="Mark_As_Completed">Markeer als voltooid</string>
+    <string name="Mark_As_Uncompleted">Markeer als niet voltooid</string>
+    <string name="recurrence_once">Een keer op %1$s</string>
+    <string name="recurrence_daily">Dagelijks</string>
+    <string name="recurrence_every_x_days">Elke %1$d dag(en)</string>
+    <string name="recurrence_weekly_on">Wekelijks op %1$s</string>
+    <string name="recurrence_monthly_on">Maandelijks op dag %1$d</string>
+    <string name="recurrence_yearly_on">Jaarlijks op %1$s</string>
+    <string name="recurrence_at_time">%1$s om %2$s</string>
+
+    <!-- Event Notifications -->
+    <string name="On_Time">Op het tijdstip van het evenement</string>
+    <string name="five_minutes_before">5 minuten voor</string>
+    <string name="ten_minutes_before">10 minuten voor</string>
+    <string name="fifteen_minutes_before">15 minuten voor</string>
+    <string name="thirty_minutes_before">30 minuten voor</string>
+    <string name="one_hour_before">1 uur voor</string>
+    <string name="Custom_Notification">Aangepaste notificatie</string>
+    <string name="Add_Notification">Voeg notificatie Toe</string>
+    <string name="Select_Time">Selecteer tijd</string>
+
+    <!-- Time Units -->
+    <string name="day">dag</string>
+    <string name="days">Dagen</string>
+    <string name="hour">uur</string>
+    <string name="hours">Uren</string>
+    <string name="minute">minuut</string>
+    <string name="minutes">Minuten</string>
+    <string name="before">voor</string>
+
+    <!-- Calendar -->
+    <string name="Calendar">Kalender</string>
+
+    <!-- Journal -->
+    <string name="Journal">Dagboek</string>
+    <string name="Write_here">Schrijf hier…</string>
+    <string name="Empty_Journal">Geen invoer gevonden</string>
+    <string name="Today_Entry">Invoer van vandaag</string>
+
+    <!-- Analytics -->
+    <string name="Analytics">Analyses</string>
+    <string name="Empty_Analytics">Voeg ruimtes toe om hier analyses te vinden</string>
+    <string name="HeatMap">Gewoonte heatmap</string>
+    <string name="Completed_Today">Vandaag voltooid</string>
+    <string name="This_Week">Deze week</string>
+    <string name="This_Month">Deze maand</string>
+    <string name="Upcoming">Binnenkomend</string>
+    <string name="Failed">Mislukt</string>
+    <string name="Completed">Voltooid</string>
+    <string name="journals_written">%1$d dagboeken geschreven</string>
+    <string name="best_streak">Beste: %1$d dagen</string>
+    <string name="completion_percentage">%1$d%% voltooiing</string>
+
+    <!-- Error Messages -->
+    <string name="Error_Alarm_Permission_Settings">Niet mogelijk om alarm permissies te openen</string>
+    <string name="Error_Schedule_Alarm_Failed">Fout: Mislukt om alarm in te plannen</string>
+    <string name="Error_Cancel_Alarm_Failed">Fout: Mislukt om alarm te annuleren</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="Add_Spaces_Content_Desc">Voeg-ruimtes toe</string>
+    <string name="Space_Content_Desc">ruimte</string>
+    <string name="Edit_Space_Content_Desc">Bewerk-ruimte</string>
+
+    <string name="editor_title">Editor</string>
+    <string name="editor_subtitle">Standaardweergave • Standaard bewerkingsmodus</string>
+
+    <string name="show_line_numbers_title">Regelnummers weergeven</string>
+    <string name="show_line_numbers_description">
+        Regelnummers weergeven in de editor
+    </string>
+
+    <string name="markdown_lint_title">Markdown-lint</string>
+    <string name="markdown_lint_description">
+        Markdown-indeling en syntaxis worden gecontroleerd
+    </string>
+
+    <string name="default_editor_view">Standaard editorweergave</string>
+
+    <string name="reading_view">Leesweergave</string>
+    <string name="editing_view">Bewerkingsweergave</string>
+
+    <string name="shareContent">
+        Flux is een moderne Android-productiviteitsapp die volledig met Compose is gebouwd.\n
+        Hiermee kun je werkruimtes maken, bewerken en verwijderen met sjablonen zoals Notities, Gewoonten, Dagboek, To-Do, Evenementen, enz., samen met geavanceerde functies zoals zoeken en vervangen, notitiesjablonen, lokale import van afbeeldingen/video/audio, Markdown, LaTeX-formules en Mermaid-diagrammen.\n
+        Download en probeer het nu:\n
+        - GitHub:  https://github.com/chindaronit/Flux/releases\n
+        - F-Droid: https://f-droid.org/packages/com.flux/
+    </string>
+
+    <string name="select_folder">Map selecteren</string>
+    <string name="select_folder_description">Selecteer waar app-gegevens worden opgeslagen, inclusief afbeeldingen, audio, video\'s, documenten en back-ups</string>
+
+    <!-- Progress Tracker -->
+    <string name="not_started">Niet gestart</string>
+    <string name="in_progress">Bezig</string>
+    <string name="empty">Leeg</string>
+    <string name="target">Doel</string>
+    <string name="start">Start</string>
+    <string name="progress_tracker">Voortgangsvolger</string>
+
+    <!-- values-nl/strings.xml -->
+
+    <string name="system_time_format_title">Systeemtijdnotatie</string>
+    <string name="system_time_format_description">Past zich automatisch aan de systeemtijdnotatie aan</string>
+
+    <string name="mode_title">Modus</string>
+    <string name="mode_description">Normaal • Compact</string>
+
+    <string name="made_in_india">Gemaakt in India</string>
+
+    <string name="compact_mode">Compacte modus</string>
+    <string name="default_mode">Standaardmodus</string>
+
+    <string name="select_mode">Selecteer modus</string>
+
+    <string name="no_options_available">Geen opties beschikbaar</string>
+
+    <string name="current_habit_status">Huidige gewoonte-status</string>
+
+    <string name="goal">Doel</string>
+    <string name="completion">Voltooiing</string>
+
+    <string name="decrement">Verlagen</string>
+    <string name="increment">Verhogen</string>
+    <string name="log_time">Tijd registreren</string>
+
+    <string name="current_streak">Huidig %1$d</string>
+
+    <string name="habit_type_simple">Eenvoudig</string>
+    <string name="habit_type_timed">Getimed</string>
+    <string name="habit_type_counter">Teller</string>
+
+    <string name="type">Type</string>
+
+    <string name="remind_at">Herinner om</string>
+
+    <string name="timer">Timer</string>
+
+    <string name="active_from">Actief vanaf</string>
+    <string name="active_until">Actief tot</string>
+
+    <string name="notify_every">Herinner elke</string>
+
+    <string name="unit">Eenheid</string>
+
+    <string name="this_year">Dit jaar</string>
+
+    <string name="reminder_time">Herinneringstijd</string>
+
+    <string name="end_time_greater_than_start">
+    Eindtijd moet groter zijn dan starttijd
+</string>
+
+    <string name="unit_optional">Eenheid (Optioneel)</string>
+
+    <string name="from">Van</string>
+    <string name="to">Tot</string>
+
+    <string name="remind_every">Herinner elke</string>
+
+    <string name="habit_reminder_count">
+    Gewoonte herinnert %1$d keer per dag.
+</string>
+
+    <string name="duration">Duur</string>
+
+    <string name="future_journal_entries_not_allowed">
+    Toekomstige journaalvermeldingen zijn niet toegestaan
+</string>
+
+    <string name="empty_no_data_found">Leeg! Geen gegevens gevonden</string>
+    <string name="oops_no_language_found">Oeps! Geen taal gevonden</string>
+
+    <string name="marked_done">Gemarkeerd als voltooid</string>
+    <string name="failed">Mislukt</string>
+
+    <string name="category_others">Overige</string>
+    <string name="category_default">Standaard</string>
+    <string name="category_food">Voedsel</string>
+    <string name="category_emoji">Emoji</string>
+    <string name="category_finance_analytics">Financiën - Analyse</string>
+    <string name="journal_heat_map">Journal warmtekaart</string>
+
+    <string name="selected_spaces">Geselecteerde ruimtes</string>
+    <string name="available_spaces">Beschikbare ruimtes</string>
+    <string name="other_available">Andere beschikbaar</string>
+    <string name="passkey">Toegangssleutel</string>
+    <string name="icon">Pictogram</string>
+    <string name="latest">Nieuwste</string>
+    <string name="oldest">Oudste</string>
+    <string name="filter_by_date">Filteren op datum</string>
+    <string name="labels">Labels</string>
+    <string name="date">Datum</string>
+
+    <string name="view">Weergave</string>
+    <string name="list_view">Lijstweergave</string>
+    <string name="grid_view">Rasterweergave</string>
+    <string name="pinned">Vastgezet</string>
+    <string name="unpinned">Niet vastgezet</string>
+    <string name="sort_by">Sorteren op</string>
+
+    <string name="Import">Importeren</string>
+    <string name="create">Aanmaken</string>
+    <string name="clear">Wissen</string>
+    <string name="spaces">Ruimtes</string>
+    <string name="workspaces">Werkruimtes</string>
+    <string name="item_removed">Item verwijderd</string>
+    <string name="undo">Ongedaan maken</string>
+
+    <string name="notes_preview">Notitievoorbeeld</string>
+    <string name="change_preview_setting_for_notes">Voorbeeldinstellingen voor notities wijzigen</string>
+    <string name="change_height">Hoogte wijzigen</string>
+    <string name="normal">Normaal</string>
+    <string name="elongated">Verlengd</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="compact">Compact</string>
+
+    <string name="content_copied">Inhoud gekopieerd!</string>
+    <string name="content_moved">Inhoud verplaatst!</string>
+    <string name="clone_created_successfully">Kloon succesvol aangemaakt</string>
+    <string name="days_left">Nog %1$d dagen</string>
+    <string name="one_day_left">Nog 1 dag</string>
+    <string name="one_day_overdue">1 dag te laat</string>
+    <string name="days_overdue">%1$d dagen te laat</string>
+    <string name="start_date_after_target_error">De startdatum mag niet na de einddatum liggen</string>
+    <string name="target_date_before_start_error">De einddatum mag niet vóór de startdatum liggen</string>
+    <string name="convert">Converteren</string>
+    <string name="convert_to_note">Omzetten naar notitie</string>
+    <string name="convert_to_todo">Omzetten naar takenlijst</string>
+    <string name="convert_to_journal">Omzetten naar dagboek</string>
+    <string name="clone">Klonen</string>
+    <string name="copy">Kopiëren</string>
+    <string name="move">Verplaatsen</string>
+    <string name="select_workspaces">Werkruimten selecteren</string>
+    <string name="turn_on_reminder">Schakel de herinnering in voor deze takenlijst!</string>
+    <string name="created">Aangemaakt</string>
+    <string name="reminder">Herinnering</string>
+    <string name="scheduled">Gepland</string>
+    <string name="true_text">Waar</string>
+    <string name="false_text">Onwaar</string>
+    <string name="off">Uit</string>
+    <string name="completed">Voltooid</string>
+    <string name="remaining">Resterend</string>
+
+    <string name="habit_achievement">Gewoonteprestatie</string>
+    <string name="consistency">Consistentie</string>
+    <string name="percent">Procent</string>
+    <string name="keep_it_going">Ga zo door!</string>
+    <string name="longest_streak">Langste reeks</string>
+    <string name="personal_best">Persoonlijk record</string>
+    <string name="last_30_days">Afgelopen 30 dagen</string>
+    <string name="tracked_by_flux">Bijgehouden door @Flux</string>
+    <string name="available_on_fdroid_izzyondroid">Beschikbaar op F-Droid, IzzyOnDroid</string>
+    <string name="share_achievement">Prestatie delen</string>
+    <string name="not_scheduled">Niet gepland</string>
+    <string name="missed">Gemist</string>
+    <string name="pick_a_todo">Kies een taak</string>
+
+    <string name="list_items">Lijstitems</string>
+    <string name="no_checklist_for_date">Geen checklist voor deze datum.</string>
+    <string name="tracking_starts_later">Je tracking begint later!</string>
+    <string name="removed_items">Verwijderde items</string>
+    <string name="no_data_yet">Nog geen gegevens</string>
+    <string name="item_consistency">Itemconsistentie</string>
+    <string name="current_streak_text">Huidige reeks</string>
+    <string name="drag_horizontally_to_reorder">Sleep horizontaal om opnieuw te ordenen</string>
+    <string name="delete_alert">Verwijderingswaarschuwing!</string>
+    <string name="delete_spaces_alert">Je staat op het punt %1$s ruimte(n) met alle gegevens permanent te verwijderen. Dit kan niet ongedaan worden gemaakt.</string>
+
+    <string name="set_backup_password_title">Back-upwachtwoord instellen</string>
+    <string name="enter_backup_password_title">Back-upwachtwoord invoeren</string>
+    <string name="backup_password_setting">Een back-upwachtwoord instellen</string>
+    <string name="backup_encrypted">Back-ups zijn versleuteld</string>
+    <string name="backup_not_encrypted">Back-ups zijn niet versleuteld</string>
+    <string name="backup_password">Back-upwachtwoord</string>
+    <string name="backup_password_description">Dit wachtwoord kan niet worden hersteld als u het kwijtraakt. U hebt het nodig om deze back-up op elk apparaat te herstellen.</string>
+    <string name="set_backup_password">Een back-upwachtwoord instellen</string>
+    <string name="auto_backup_requires_password">Automatische back-up is ingeschakeld, maar er is geen wachtwoord ingesteld. Daardoor kunnen back-ups niet veilig worden uitgevoerd. Stel nu een wachtwoord in of schakel automatische back-up uit.</string>
+    <string name="go_to_settings">Ga naar instellingen</string>
+    <string name="change_backup_password_title">Back-upwachtwoord wijzigen?</string>
+    <string name="change_backup_password_message">Back-ups die al met uw huidige wachtwoord zijn versleuteld, kunnen na deze wijziging niet meer worden hersteld. Nieuwe back-ups gebruiken het nieuwe wachtwoord. Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="set_password">Wachtwoord instellen</string>
+    <string name="turn_off_auto_backup">Automatische back-up uitschakelen</string>
+    <string name="unsupported_backup_version">Niet-ondersteunde back-upversie: %1$s</string>
+    <string name="backup_wrong_password_or_corrupted">Onjuist wachtwoord of het bestand is beschadigd of ermee is geknoeid.</string>
+
+    <string name="social_link_removed">Sociale link verwijderd</string>
+    <string name="discard_changes">Wijzigingen verwerpen?</string>
+    <string name="discard_changes_message">Je hebt wijzigingen aangebracht maar nog geen titel toegevoegd. Voeg een titel toe om op te slaan of verwerp de wijzigingen.</string>
+    <string name="discard">Verwerpen</string>
+    <string name="keep_editing">Doorgaan met bewerken</string>
+    <string name="add_social">Sociale link toevoegen</string>
+    <string name="changelog">Wijzigingslogboek</string>
+    <string name="changelog_description">Bekijk de wijzigingen in elke versie.</string>
+
+    <string name="change">Wijzigen</string>
+    <string name="change_root_directory">Hoofdmap voor Flux-gegevens wijzigen</string>
+    <string name="change_storage_root">Opslaghoofdmap wijzigen</string>
+    <string name="couldnt_move_data">Kan gegevens niet verplaatsen</string>
+    <string name="please_dont_close_app">Sluit de app niet</string>
+    <string name="moving_your_data">Je gegevens worden verplaatst…</string>
+    <string name="more_files">…en nog %1$d</string>
+    <string name="files_progress">%1$d / %2$d bestanden</string>
+
+    <string name="welcome_back">Welkom terug bij</string>
+    <string name="authenticate">Authenticeren</string>
+    <string name="private_secure">Privé &amp; veilig</string>
+    <string name="biometric_unlock_description">Gebruik de biometrische gegevens van je apparaat om je Flux-gegevens veilig te ontgrendelen.</string>
+    <string name="biometric_data_never_leaves">Je biometrische gegevens verlaten je apparaat nooit</string>
+
+    <string name="default_screen">Standaardscherm</string>
+    <string name="default_screen_description">Het standaardscherm wordt geopend wanneer de app wordt gestart</string>
+    <string name="change_default_screen_description">Wijzigen welk scherm als eerste wordt geladen bij het starten van de app</string>
+    <string name="add_new_item">Nieuw item toevoegen</string>
+    <string name="edit_item">Item bewerken</string>
+</resources>

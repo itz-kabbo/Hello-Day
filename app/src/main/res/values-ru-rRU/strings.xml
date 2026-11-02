@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flux</string>
+
+    <!-- Authentication -->
+    <string name="Auth_with_Biometric">Аутентификация с помощью биометрии</string>
+    <string name="Auth_Error">Ошибка: аутентификация не удалась</string>
+    <string name="Biometric_Title">Биометрическая аутентификация</string>
+    <string name="Biometric_Subtitle">Используйте отпечаток пальца или лицо для аутентификации</string>
+    <string name="Biometric_Cancel">Отмена</string>
+
+    <!-- Common UI Elements -->
+    <string name="Pin">Закрепить</string>
+    <string name="Unpin">Открепить</string>
+    <string name="Pinned">Закреплено</string>
+    <string name="Dismiss">Отклонить</string>
+    <string name="Confirm">Подтвердить</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Set">Установить</string>
+    <string name="Custom">Пользовательский</string>
+    <string name="Today">Сегодня</string>
+    <string name="New">Новый</string>
+    <string name="Others">Другие</string>
+    <string name="Title">Заголовок</string>
+    <string name="Description">Описание</string>
+    <string name="Amount">Сумма</string>
+    <string name="at">в</string>
+    <string name="on">на</string>
+
+    <!-- Dialog Messages -->
+    <string name="deleteDialogTitle">Вы уверены?</string>
+    <string name="deleteDialogText">Это нельзя отменить, все данные будут удалены навсегда.</string>
+    <string name="removeDialogTitle">Удалить пространство?</string>
+    <string name="removeDialogText">Это нельзя отменить, все данные этого пространства будут удалены.</string>
+
+    <!-- Permissions -->
+    <string name="Reminder_Permission">Пожалуйста, включите напоминания</string>
+    <string name="Notification_Permission">Пожалуйста, включите уведомления</string>
+
+    <!-- Settings -->
+    <string name="Settings">Настройки</string>
+
+    <!-- Settings - Customize -->
+    <string name="Customize">Настроить</string>
+    <string name="Customize_desc">Тема • Форма • Контраст</string>
+    <string name="System_theme">Системная тема</string>
+    <string name="System_theme_desc">Автоматически адаптируется к теме устройства</string>
+    <string name="Light_theme">Светлая тема</string>
+    <string name="Light_theme_desc">Переключиться на светлую тему</string>
+    <string name="Dark_theme">Тёмная тема</string>
+    <string name="Dark_theme_desc">Переключиться на тёмную тему</string>
+    <string name="Dynamic_theme">Динамическая тема</string>
+    <string name="Dynamic_theme_desc">Автоматически адаптируется к фону</string>
+    <string name="Amoled_theme">AMOLED-тема</string>
+    <string name="Amoled_theme_desc">Использовать чёрный цвет для фона</string>
+    <string name="Themes">Темы</string>
+    <string name="Shape">Форма • Вид</string>
+    <string name="Radius">Радиус</string>
+    <string name="Radius_desc">Изменить форму</string>
+    <string name="Select_radius">Выбрать радиус</string>
+    <string name="Contrast">Контраст</string>
+    <string name="Low">Низкий</string>
+    <string name="Medium">Средний</string>
+    <string name="High">Высокий</string>
+    <string name="Grid_View">Вид сетки</string>
+    <string name="Grid_View_Desc">Изменить вид заметок на сетку</string>
+    <string name="Monthly_View">Вид на месяц</string>
+    <string name="Monthly_View_Desc">Переключиться на календарь по месяцам</string>
+    <string name="Hour_Format_24">24-часовой формат</string>
+    <string name="Hour_Format_24_Desc">Использовать 24-часовой формат времени</string>
+    <string name="Compact_Mode">Компактный режим</string>
+    <string name="Compact_Mode_Desc">Показывать рабочее пространство в компактном режиме</string>
+    <string name="Extreme_Compact_Mode">Ультракомпактный режим</string>
+    <string name="Extreme_Compact_Mode_Desc">Уменьшить расстояние между рабочими пространствами</string>
+    <string name="Theme_Palette">Палитра тем</string>
+    <string name="Font">Шрифт</string>
+    <string name="Fonts">Шрифты</string>
+    <string name="Share_txt">Поделиться текстовым файлом</string>
+    <string name="Share_md">Поделиться Markdown файлом</string>
+    <string name="Error_Share_txt">Ошибка при отправке текстового файла</string>
+    <string name="Error_Share_md">Ошибка при отправке .md файла</string>
+    <string name="Export_As">Экспортировать как</string>
+    <string name="Plain_Text">Простой текст (.txt)</string>
+    <string name="Markdown">Markdown (.md)</string>
+    <string name="Change_Font">Сменить шрифт</string>
+    <string name="share">Поделиться</string>
+    <string name="save">Сохранить</string>
+    <string name="print">Печать</string>
+    <string name="delete">Удалить</string>
+    <string name="share_as">Поделиться как</string>
+    <string name="html">HTML</string>
+    <string name="image">Изображение</string>
+    <string name="Outline">Структура</string>
+    <string name="paragraph">Абзац</string>
+    <string name="words_excluding_punctuations">Слова без знаков препинания</string>
+    <string name="lines">Строки</string>
+    <string name="show_line_numbers">Показывать номера строк</string>
+    <string name="show_line_numbers_desc">Показывать номера строк в редакторе</string>
+    <string name="markdown_lint">Проверка Markdown</string>
+    <string name="markdown_lint_desc">Формат и синтаксис Markdown будут проверены</string>
+    <string name="color_palette">Цветовая палитра</string>
+    <string name="change_app_theme">Изменить тему приложения</string>
+
+    <!-- Settings - Privacy -->
+    <string name="Privacy">Конфиденциальность</string>
+    <string name="Privacy_desc">Защита экрана • Блокировка приложения</string>
+    <string name="Screen_Protection">Защита экрана</string>
+    <string name="Screen_Protection_Desc">Отключить скриншоты</string>
+    <string name="App_Lock">Блокировка приложения</string>
+    <string name="App_Lock_desc">Аутентификация по отпечатку пальца</string>
+    <string name="Encrypt">Шифровать</string>
+    <string name="Encrypt_Desc">Шифровать данные при резервном копировании</string>
+
+    <!-- Settings - Languages -->
+    <string name="Languages">Языки</string>
+    <string name="Languages_desc">Сменить язык</string>
+    <string name="System_language">Системный язык</string>
+    <string name="System_language_desc">Автоматически адаптируется к языку устройства</string>
+
+    <!-- Settings - Backup -->
+    <string name="Backup">Резервное копирование</string>
+    <string name="Backup_Description">Сохранить данные в файл</string>
+    <string name="Restore">Восстановить</string>
+    <string name="Restore_Description">Восстановить данные из резервной копии</string>
+    <string name="reset">Сбросить</string>
+    <string name="backup_frequency">Частота автоматического резервного копирования</string>
+    <string name="reset_database">Сбросить базу данных</string>
+    <string name="clear_app_data">Очистить все данные приложения</string>
+    <string name="never">Никогда</string>
+    <string name="daily">Ежедневно</string>
+    <string name="weekly">Еженедельно</string>
+    <string name="monthly">Ежемесячно</string>
+    <string name="success">Успешно</string>
+
+    <!-- Settings - About -->
+    <string name="About">О приложении</string>
+    <string name="About_desc">Версия • Разработчики • Исходный код</string>
+    <string name="Build_type">Тип сборки</string>
+    <string name="Build_version">Версия сборки</string>
+    <string name="Developer">Разработчик</string>
+    <string name="Developer_Name">Ronit Chinda</string>
+    <string name="Source_Code">Исходный код</string>
+    <string name="Github_Repository">Репозиторий GitHub</string>
+    <string name="license">Лицензия</string>
+    <string name="license_gpl3_only">GPL-3.0 Only</string>
+    <string name="user_guide_title">Руководство пользователя</string>
+    <string name="user_guide_description">Прочитайте руководство, чтобы полностью использовать приложение.</string>
+    <string name="privacy_policy_title">Политика конфиденциальности</string>
+    <string name="privacy_policy_description">Политика конфиденциальности приложения.</string>
+    <string name="share_title">Поделиться</string>
+    <string name="share_description">Поделитесь приложением с друзьями и семьёй.</string>
+    <string name="data_title">Данные</string>
+    <string name="data_subtitle">Резервное копирование • Восстановление</string>
+
+    <!-- Settings - Contact & Support -->
+    <string name="Contact">Контакт</string>
+    <string name="Contact_desc">Запрос функции • Сообщение об ошибке</string>
+    <string name="Contact_desc2">Сообщить о проблеме на GitHub</string>
+    <string name="Support">Поддержка</string>
+    <string name="Support_desc">Покажи свою поддержку</string>
+    <string name="feature_request">Запрос функции / Предложение</string>
+    <string name="feature_request_desc">Поделитесь своими идеями в обсуждениях GitHub.</string>
+    <string name="bug_report">Сообщить об ошибке</string>
+    <string name="email">Электронная почта</string>
+    <string name="email_desc">Напишите нам для обратной связи или поддержки.</string>
+    <string name="discord">Discord</string>
+    <string name="discord_desc">Присоединиться к каналу Discord</string>
+    <string name="no_email_app">Почтовое приложение не найдено</string>
+
+    <!-- Workspace -->
+    <string name="Home">Главная</string>
+    <string name="Edit_Workspace">Редактировать рабочее пространство</string>
+    <string name="Add_Workspace">Добавить рабочее пространство</string>
+    <string name="Search_Workspaces">Поиск рабочих пространств…</string>
+    <string name="Delete_Workspace">Удалить рабочее пространство</string>
+    <string name="Edit_Details">Редактировать детали</string>
+    <string name="Change_Cover">Изменить обложку</string>
+    <string name="Change_Icon">Изменить иконку</string>
+    <string name="Lock_Workspace">Заблокировать рабочее пространство</string>
+    <string name="Unlock_Workspace">Разблокировать рабочее пространство</string>
+    <string name="Add_Spaces">Добавить пространства</string>
+    <string name="Add_Space">Добавить пространство</string>
+    <string name="Empty_Workspace">Рабочее пространство не найдено</string>
+    <string name="Wrong_Passkey">Неверный пароль</string>
+    <string name="enterPasskey">Введите пароль</string>
+    <string name="Remove_Cover">Удалить обложку</string>
+    <string name="Search_Here">Искать здесь…</string>
+    <string name="current">Текущий</string>
+    <string name="add">Добавить</string>
+    <string name="workspace_deleted">Рабочее пространство удалено</string>
+
+    <!-- Space Management -->
+    <string name="Current">Текущее</string>
+    <string name="Available_Spaces">Доступные пространства</string>
+
+    <!-- Notes -->
+    <string name="Notes">Заметки</string>
+    <string name="Search_Notes">Поиск заметок…</string>
+    <string name="Delete_Note">Удалить заметку</string>
+    <string name="Empty_Notes">Заметки не найдены</string>
+    <string name="Last_Edited">Последнее редактирование</string>
+    <string name="Word_Count">Количество слов</string>
+    <string name="Character_Count">Количество символов</string>
+    <string name="Labels">Метки</string>
+    <string name="Empty_Labels">Метки не найдены</string>
+    <string name="Edit_Labels">Редактировать метки</string>
+    <string name="Add_Label">Добавить новую метку</string>
+    <string name="Edit_Label">Редактировать метку</string>
+    <string name="Select_Label">Выбрать метку</string>
+    <string name="Export_Note">Экспортировать заметку</string>
+    <string name="import_success">Импорт успешно выполнен</string>
+    <string name="import_failed">Ошибка при импорте заметки</string>
+    <string name="find">Найти</string>
+    <string name="replace">Заменить</string>
+    <string name="record_audio">Записать аудио</string>
+    <string name="tap_to_start">Нажмите, чтобы начать</string>
+    <string name="retry">Повторить</string>
+    <string name="permission_required">Пожалуйста, предоставьте разрешение на запись.</string>
+    <string name="task">Задача</string>
+    <string name="item_value">Значение элемента</string>
+    <string name="list">Список</string>
+    <string name="column">Столбец</string>
+    <string name="row">Строка</string>
+    <string name="table">Таблица</string>
+    <string name="url">URL</string>
+    <string name="name">Имя</string>
+    <string name="link">Ссылка</string>
+
+    <!-- To-Do -->
+    <string name="To_Do">Задачи</string>
+    <string name="Empty_Lists">Списки не найдены</string>
+    <string name="Edit_list">Редактировать список</string>
+    <string name="Add_Item">Добавить новый элемент</string>
+    <string name="more">…ещё</string>
+
+    <!-- Habits -->
+    <string name="Habits">Привычки</string>
+    <string name="Empty_Habits">Привычки не найдены</string>
+    <string name="Started">Начато</string>
+    <string name="Current_Streak">Текущая серия: </string>
+    <string name="Best_Streak">Лучшее: </string>
+    <string name="Add_Habit">Добавить привычку</string>
+    <string name="Edit_Habit">Редактировать привычку</string>
+    <string name="completed_habits">Выполнено %1$d раз</string>
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Вс</string>
+
+    <string name="past_habits">Прошлые привычки</string>
+    <string name="time">Время</string>
+    <string name="repeat">Повтор</string>
+    <string name="never_ends">Никогда не заканчивается</string>
+    <string name="ends_on">Заканчивается</string>
+    <string name="mark_completed">Отметить как выполнено</string>
+    <string name="mark_pending">Отметить как ожидающее</string>
+    <string name="ends_on_date">Заканчивается %1$s</string>
+    <string name="weekly_habit_completion">Еженедельное выполнение привычек</string>
+    <string name="habit_already_ended">Эта привычка уже завершена!</string>
+    <string name="cannot_mark_future_dates">Нельзя отмечать будущие даты!</string>
+    <string name="habit_starts_later">Ваша привычка начинается позже!</string>
+    <string name="date_not_in_schedule">Эта дата не входит в расписание вашей привычки.</string>
+
+    <!-- Events -->
+    <string name="Events">События</string>
+    <string name="Empty_Events">События не найдены</string>
+    <string name="Edit_Event">Редактировать событие</string>
+    <string name="All_Day">Весь день</string>
+    <string name="Repeat_Task">Повторяющаяся задача</string>
+    <string name="Repeat">Повтор</string>
+    <string name="Once">Один раз</string>
+    <string name="Weekly">Еженедельно</string>
+    <string name="Monthly">Ежемесячно</string>
+    <string name="Yearly">Ежегодно</string>
+    <string name="Status_Completed">Завершено</string>
+    <string name="Status_Pending">В ожидании</string>
+    <string name="Mark_As_Completed">Отметить как завершённое</string>
+    <string name="Mark_As_Uncompleted">Отметить как незавершённое</string>
+    <string name="recurrence_once">Один раз %1$s</string>
+    <string name="recurrence_daily">Ежедневно</string>
+    <string name="recurrence_every_x_days">Каждые %1$d дней</string>
+    <string name="recurrence_weekly_on">Еженедельно по %1$s</string>
+    <string name="recurrence_monthly_on">Ежемесячно, в день %1$d</string>
+    <string name="recurrence_yearly_on">Ежегодно %1$s</string>
+    <string name="recurrence_at_time">%1$s в %2$s</string>
+
+    <!-- Event Notifications -->
+    <string name="On_Time">Во время события</string>
+    <string name="five_minutes_before">За 5 минут до</string>
+    <string name="ten_minutes_before">За 10 минут до</string>
+    <string name="fifteen_minutes_before">За 15 минут до</string>
+    <string name="thirty_minutes_before">За 30 минут до</string>
+    <string name="one_hour_before">За 1 час до</string>
+    <string name="Custom_Notification">Пользовательское уведомление</string>
+    <string name="Add_Notification">Добавить уведомление</string>
+    <string name="Select_Time">Выбрать время</string>
+
+    <!-- Time Units -->
+    <string name="day">день</string>
+    <string name="days">дни</string>
+    <string name="hour">час</string>
+    <string name="hours">часы</string>
+    <string name="minute">минута</string>
+    <string name="minutes">минуты</string>
+    <string name="before">до</string>
+
+    <!-- Calendar -->
+    <string name="Calendar">Календарь</string>
+
+    <!-- Journal -->
+    <string name="Journal">Журнал</string>
+    <string name="Write_here">Пишите здесь…</string>
+    <string name="Empty_Journal">Записи не найдены</string>
+    <string name="Today_Entry">Запись за сегодня</string>
+
+    <!-- Analytics -->
+    <string name="Analytics">Аналитика</string>
+    <string name="Empty_Analytics">Добавьте пространства, чтобы видеть аналитику здесь</string>
+    <string name="HeatMap">Карта привычек</string>
+    <string name="Completed_Today">Завершено сегодня</string>
+    <string name="This_Week">На этой неделе</string>
+    <string name="This_Month">В этом месяце</string>
+    <string name="Upcoming">Предстоящие</string>
+    <string name="Failed">Провалено</string>
+    <string name="Completed">Завершено</string>
+    <string name="journals_written">%1$d записей в журнале</string>
+    <string name="best_streak">Лучшая серия: %1$d дней</string>
+    <string name="completion_percentage">%1$d%% завершения</string>
+
+    <!-- Error Messages -->
+    <string name="Error_Alarm_Permission_Settings">Не удалось открыть настройки разрешений для будильника</string>
+    <string name="Error_Schedule_Alarm_Failed">Ошибка: не удалось запланировать будильник</string>
+    <string name="Error_Cancel_Alarm_Failed">Ошибка: не удалось отменить будильник</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="Add_Spaces_Content_Desc">Добавить пространства</string>
+    <string name="Space_Content_Desc">пространство</string>
+    <string name="Edit_Space_Content_Desc">Редактировать пространство</string>
+
+    <string name="editor_title">Редактор</string>
+    <string name="editor_subtitle">Вид по умолчанию • Режим редактирования по умолчанию</string>
+
+    <string name="show_line_numbers_title">Показывать номера строк</string>
+    <string name="show_line_numbers_description">
+        Показывать номера строк в редакторе
+    </string>
+
+    <string name="markdown_lint_title">Markdown-линт</string>
+    <string name="markdown_lint_description">
+        Формат и синтаксис Markdown будут проверены
+    </string>
+
+    <string name="default_editor_view">Вид редактора по умолчанию</string>
+
+    <string name="reading_view">Режим чтения</string>
+    <string name="editing_view">Режим редактирования</string>
+
+    <string name="shareContent">
+        Flux — это современное Android-приложение для продуктивности, полностью созданное с использованием Compose.\n
+        Оно позволяет создавать, редактировать и удалять рабочие пространства с шаблонами, такими как Заметки, Привычки, Дневник, Задачи, События и др., а также поддерживает расширенные функции: поиск и замена, шаблоны заметок, локальный импорт изображений/видео/аудио, Markdown, формулы LaTeX и диаграммы Mermaid.\n
+        Скачайте и попробуйте сейчас:\n
+        - GitHub:  https://github.com/chindaronit/Flux/releases\n
+        - F-Droid: https://f-droid.org/packages/com.flux/
+    </string>
+
+    <string name="select_folder">Выбрать папку</string>
+    <string name="select_folder_description">Выберите место для хранения данных приложения, включая изображения, аудио, видео, документы и резервные копии</string>
+
+    <!-- Progress Tracker -->
+    <string name="not_started">Не начато</string>
+    <string name="in_progress">В процессе</string>
+    <string name="empty">Пусто</string>
+    <string name="target">Цель</string>
+    <string name="start">Начало</string>
+    <string name="progress_tracker">Трекер прогресса</string>
+
+    <!-- values-ru/strings.xml -->
+
+    <string name="system_time_format_title">Формат системного времени</string>
+    <string name="system_time_format_description">Автоматически адаптируется к системному формату времени</string>
+
+    <string name="mode_title">Режим</string>
+    <string name="mode_description">Обычный • Компактный</string>
+
+    <string name="made_in_india">Сделано в Индии</string>
+
+    <string name="compact_mode">Компактный режим</string>
+    <string name="default_mode">Режим по умолчанию</string>
+
+    <string name="select_mode">Выбрать режим</string>
+
+    <string name="no_options_available">Нет доступных вариантов</string>
+
+    <string name="current_habit_status">Текущий статус привычки</string>
+
+    <string name="goal">Цель</string>
+    <string name="completion">Завершение</string>
+
+    <string name="decrement">Уменьшить</string>
+    <string name="increment">Увеличить</string>
+    <string name="log_time">Записать время</string>
+
+    <string name="current_streak">Текущий %1$d</string>
+
+    <string name="habit_type_simple">Простой</string>
+    <string name="habit_type_timed">С таймером</string>
+    <string name="habit_type_counter">Счётчик</string>
+
+    <string name="type">Тип</string>
+
+    <string name="remind_at">Напомнить в</string>
+
+    <string name="timer">Таймер</string>
+
+    <string name="active_from">Активно с</string>
+    <string name="active_until">Активно до</string>
+
+    <string name="notify_every">Напоминать каждые</string>
+
+    <string name="unit">Единица</string>
+
+    <string name="this_year">Этот год</string>
+
+    <string name="reminder_time">Время напоминания</string>
+
+    <string name="end_time_greater_than_start">
+    Время окончания должно быть больше времени начала
+</string>
+
+    <string name="unit_optional">Единица (Необязательно)</string>
+
+    <string name="from">От</string>
+    <string name="to">До</string>
+
+    <string name="remind_every">Напоминать каждые</string>
+
+    <string name="habit_reminder_count">
+    Привычка будет напоминать %1$d раз в день.
+</string>
+
+    <string name="duration">Длительность</string>
+
+    <string name="future_journal_entries_not_allowed">
+    Будущие записи журнала не разрешены
+</string>
+
+    <string name="empty_no_data_found">Пусто! Данные не найдены</string>
+    <string name="oops_no_language_found">Упс! Язык не найден</string>
+
+    <string name="marked_done">Отмечено как выполнено</string>
+    <string name="failed">Не удалось</string>
+
+    <string name="category_others">Другое</string>
+    <string name="category_default">По умолчанию</string>
+    <string name="category_food">Еда</string>
+    <string name="category_emoji">Эмодзи</string>
+    <string name="category_finance_analytics">Финансы - Аналитика</string>
+    <string name="journal_heat_map">Тепловая карта журнала</string>
+
+    <string name="selected_spaces">Выбранные пространства</string>
+    <string name="available_spaces">Доступные пространства</string>
+    <string name="other_available">Другие доступные</string>
+    <string name="passkey">Ключ доступа</string>
+    <string name="icon">Иконка</string>
+    <string name="latest">Последние</string>
+    <string name="oldest">Самые старые</string>
+    <string name="filter_by_date">Фильтр по дате</string>
+    <string name="labels">Метки</string>
+    <string name="date">Дата</string>
+
+    <string name="view">Вид</string>
+    <string name="list_view">Список</string>
+    <string name="grid_view">Сетка</string>
+    <string name="pinned">Закреплено</string>
+    <string name="unpinned">Не закреплено</string>
+    <string name="sort_by">Сортировать по</string>
+
+    <string name="Import">Импорт</string>
+    <string name="create">Создать</string>
+    <string name="clear">Очистить</string>
+    <string name="spaces">Пространства</string>
+    <string name="workspaces">Рабочие пространства</string>
+    <string name="item_removed">Элемент удалён</string>
+    <string name="undo">Отменить</string>
+
+    <string name="notes_preview">Предпросмотр заметок</string>
+    <string name="change_preview_setting_for_notes">Изменить настройки предпросмотра заметок</string>
+    <string name="change_height">Изменить высоту</string>
+    <string name="normal">Обычный</string>
+    <string name="elongated">Удлинённый</string>
+    <string name="video">Видео</string>
+    <string name="audio">Аудио</string>
+    <string name="compact">Компактный</string>
+\
+    <string name="content_copied">Содержимое скопировано!</string>
+    <string name="content_moved">Содержимое перемещено!</string>
+    <string name="clone_created_successfully">Клон успешно создан</string>
+    <string name="days_left">Осталось %1$d дней</string>
+    <string name="one_day_left">Остался 1 день</string>
+    <string name="one_day_overdue">Просрочка 1 день</string>
+    <string name="days_overdue">Просрочка %1$d дней</string>
+    <string name="start_date_after_target_error">Дата начала не может быть позже целевой даты</string>
+    <string name="target_date_before_start_error">Целевая дата не может быть раньше даты начала</string>
+    <string name="convert">Преобразовать</string>
+    <string name="convert_to_note">Преобразовать в заметку</string>
+    <string name="convert_to_todo">Преобразовать в задачу</string>
+    <string name="convert_to_journal">Преобразовать в дневник</string>
+    <string name="clone">Клонировать</string>
+    <string name="copy">Копировать</string>
+    <string name="move">Переместить</string>
+    <string name="select_workspaces">Выбрать рабочие пространства</string>
+    <string name="turn_on_reminder">Включите напоминание для этого списка задач!</string>
+    <string name="created">Создано</string>
+    <string name="reminder">Напоминание</string>
+    <string name="scheduled">Запланировано</string>
+    <string name="true_text">Истина</string>
+    <string name="false_text">Ложь</string>
+    <string name="off">Выкл</string>
+    <string name="completed">Завершено</string>
+    <string name="remaining">Осталось</string>
+
+    <string name="habit_achievement">Достижение привычки</string>
+    <string name="consistency">Последовательность</string>
+    <string name="percent">Процент</string>
+    <string name="keep_it_going">Так держать!</string>
+    <string name="longest_streak">Самая длинная серия</string>
+    <string name="personal_best">Личный рекорд</string>
+    <string name="last_30_days">Последние 30 дней</string>
+    <string name="tracked_by_flux">Отслеживается @Flux</string>
+    <string name="available_on_fdroid_izzyondroid">Доступно в F-Droid, IzzyOnDroid</string>
+    <string name="share_achievement">Поделиться достижением</string>
+    <string name="not_scheduled">Не запланировано</string>
+    <string name="missed">Пропущено</string>
+    <string name="pick_a_todo">Выбрать задачу</string>
+
+    <string name="list_items">Элементы списка</string>
+    <string name="no_checklist_for_date">Для этой даты нет контрольного списка.</string>
+    <string name="tracking_starts_later">Отслеживание начнётся позже!</string>
+    <string name="removed_items">Удалённые элементы</string>
+    <string name="no_data_yet">Пока нет данных</string>
+    <string name="item_consistency">Последовательность выполнения</string>
+    <string name="current_streak_text">Текущая серия</string>
+    <string name="drag_horizontally_to_reorder">Перетащите по горизонтали для изменения порядка</string>
+    <string name="delete_alert">Предупреждение об удалении!</string>
+    <string name="delete_spaces_alert">Вы собираетесь навсегда удалить пространство(а) %1$s вместе со всеми данными. Это действие нельзя отменить.</string>
+
+    <string name="set_backup_password_title">Установить пароль резервной копии</string>
+    <string name="enter_backup_password_title">Введите пароль резервной копии</string>
+    <string name="backup_password_setting">Установить пароль резервной копии</string>
+    <string name="backup_encrypted">Резервные копии зашифрованы</string>
+    <string name="backup_not_encrypted">Резервные копии не зашифрованы</string>
+    <string name="backup_password">Пароль резервной копии</string>
+    <string name="backup_password_description">Этот пароль невозможно восстановить, если он будет утерян. Он потребуется для восстановления этой резервной копии на любом устройстве.</string>
+    <string name="set_backup_password">Установить пароль резервной копии</string>
+    <string name="auto_backup_requires_password">Автоматическое резервное копирование включено, но пароль не задан, поэтому резервные копии не могут создаваться безопасно. Установите пароль сейчас или отключите автоматическое резервное копирование.</string>
+    <string name="go_to_settings">Перейти к настройкам</string>
+    <string name="change_backup_password_title">Изменить пароль резервной копии?</string>
+    <string name="change_backup_password_message">Резервные копии, уже зашифрованные текущим паролем, больше нельзя будет восстановить после этого изменения. Новые резервные копии будут использовать новый пароль. Это действие нельзя отменить.</string>
+    <string name="set_password">Установить пароль</string>
+    <string name="turn_off_auto_backup">Отключить автоматическое резервное копирование</string>
+    <string name="unsupported_backup_version">Неподдерживаемая версия резервной копии: %1$s</string>
+    <string name="backup_wrong_password_or_corrupted">Неверный пароль, либо файл повреждён или был изменён.</string>
+
+    <string name="social_link_removed">Социальная ссылка удалена</string>
+    <string name="discard_changes">Отменить изменения?</string>
+    <string name="discard_changes_message">Вы внесли изменения, но не добавили заголовок. Добавьте заголовок, чтобы сохранить изменения, или отмените их.</string>
+    <string name="discard">Отменить</string>
+    <string name="keep_editing">Продолжить редактирование</string>
+    <string name="add_social">Добавить социальную ссылку</string>
+    <string name="changelog">Журнал изменений</string>
+    <string name="changelog_description">Просматривайте изменения в каждой версии.</string>
+
+    <string name="change">Изменить</string>
+    <string name="change_root_directory">Изменить корневой каталог данных Flux</string>
+    <string name="change_storage_root">Изменить корневой каталог хранилища</string>
+    <string name="couldnt_move_data">Не удалось переместить данные</string>
+    <string name="please_dont_close_app">Не закрывайте приложение</string>
+    <string name="moving_your_data">Перемещение данных…</string>
+    <string name="more_files">…и ещё %1$d</string>
+    <string name="files_progress">%1$d / %2$d файлов</string>
+
+    <string name="welcome_back">С возвращением в</string>
+    <string name="authenticate">Аутентификация</string>
+    <string name="private_secure">Конфиденциально и безопасно</string>
+    <string name="biometric_unlock_description">Используйте биометрию устройства для безопасной разблокировки данных Flux.</string>
+    <string name="biometric_data_never_leaves">Ваши биометрические данные никогда не покидают устройство</string>
+
+    <string name="default_screen">Экран по умолчанию</string>
+    <string name="default_screen_description">Экран по умолчанию будет открыт при запуске приложения</string>
+    <string name="change_default_screen_description">Изменить экран, который загружается первым при запуске приложения</string>
+    <string name="add_new_item">Добавить новый элемент</string>
+    <string name="edit_item">Редактировать элемент</string>
+</resources>

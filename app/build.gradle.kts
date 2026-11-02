@@ -1,0 +1,117 @@
+plugins {
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
+}
+
+android {
+    namespace = "com.flux"
+    compileSdk = 37
+
+    defaultConfig {
+        applicationId = "com.flux"
+        minSdk = 31
+        targetSdk = 37
+        versionCode = 1
+        versionName = "1.0.0"
+    }
+
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
+    }
+
+    signingConfigs {
+        create("release") {
+            keyAlias = project.findProperty("signingKeyAlias") as String? ?: "release"
+            keyPassword = project.findProperty("signingKeyPassword") as String? ?: ""
+            storeFile =
+                file(project.findProperty("signingStoreFile") as String? ?: "releaseKey.jks")
+            storePassword = project.findProperty("signingStorePassword") as String? ?: ""
+        }
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = true
+            isDebuggable = false
+            isShrinkResources = true
+
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+            signingConfig = signingConfigs.getByName("release")
+        }
+        debug {
+            isMinifyEnabled = false
+            isDebuggable = true
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        compose = true
+        buildConfig = true
+    }
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            merges += "META-INF/services/*"
+        }
+        jniLibs {
+            useLegacyPackaging = false
+        }
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+    }
+}
+
+dependencies {
+    implementation(libs.androidx.compose.ui.text)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.glance.appwidget)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.core.splashscreen)
+    implementation(platform(libs.androidx.compose.bom))
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.androidx.compose.foundation.layout)
+    implementation(libs.androidx.compose.adaptive)
+    implementation(libs.androidx.compose.foundation)
+
+    // Hilt
+    ksp(libs.hilt.android.compiler)
+    ksp(libs.androidx.hilt.compiler)
+    ksp(libs.kotlinMetadataWorkaround)
+    implementation(libs.hilt.android)
+    implementation(libs.hilt.navigation.compose)
+    implementation(libs.androidx.hilt.common)
+
+    // Room
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.room.runtime)
+
+    // Serialization & JSON
+    implementation(libs.gson)
+    implementation(libs.kotlinx.serialization.json)
+
+    // Unit testing
+    testImplementation("junit:junit:4.13.2")
+}

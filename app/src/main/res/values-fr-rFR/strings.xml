@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Flux</string>
+
+    <!-- Authentication -->
+    <string name="Auth_with_Biometric">S\'authentifier avec les biométries</string>
+    <string name="Auth_Error">Erreur : L\'authentification a échoué</string>
+    <string name="Biometric_Title">Authentification biométrique</string>
+    <string name="Biometric_Subtitle">Utilisez votre empreinte ou votre visage pour vous authentifier</string>
+    <string name="Biometric_Cancel">Annuler</string>
+
+    <!-- Common UI Elements -->
+    <string name="Pin">Épingler</string>
+    <string name="Unpin">Désépingler</string>
+    <string name="Pinned">Épinglé</string>
+    <string name="Dismiss">Ignorer</string>
+    <string name="Confirm">Confirmer</string>
+    <string name="Cancel">Annuler</string>
+    <string name="Set">Définir</string>
+    <string name="Custom">Personnalisé</string>
+    <string name="Today">Aujourd\'hui</string>
+    <string name="New">Nouveau</string>
+    <string name="Others">Autres</string>
+    <string name="Title">Titre</string>
+    <string name="Description">Description</string>
+    <string name="Amount">Montant</string>
+    <string name="at">à</string>
+    <string name="on">le</string>
+
+    <!-- Dialog Messages -->
+    <string name="deleteDialogTitle">Êtes-vous sûr ?</string>
+    <string name="deleteDialogText">Cette action est irréversible, toutes les données seront supprimées définitivement.</string>
+    <string name="removeDialogTitle">Supprimer l\'espace ?</string>
+    <string name="removeDialogText">Cette action est irréversible, toutes les données de cet espace seront supprimées.</string>
+
+    <!-- Permissions -->
+    <string name="Reminder_Permission">Veuillez activer les Rappels</string>
+    <string name="Notification_Permission">Veuillez activer les notifications</string>
+
+    <!-- Settings -->
+    <string name="Settings">Paramètres</string>
+
+    <!-- Settings - Customize -->
+    <string name="Customize">Personnaliser</string>
+    <string name="Customize_desc">Thème • Forme • Contraste</string>
+    <string name="System_theme">Thème système</string>
+    <string name="System_theme_desc">S\'adapte automatiquement au thème de l\'appareil</string>
+    <string name="Light_theme">Thème clair</string>
+    <string name="Light_theme_desc">Passer au thème clair</string>
+    <string name="Dark_theme">Thème sombre</string>
+    <string name="Dark_theme_desc">Passer au thème sombre</string>
+    <string name="Dynamic_theme">Thème dynamique</string>
+    <string name="Dynamic_theme_desc">S\'adapte automatiquement à l\'arrière-plan</string>
+    <string name="Amoled_theme">Thème amoled</string>
+    <string name="Amoled_theme_desc">Utiliser du noir pour l\'arrière-plan</string>
+    <string name="Themes">Thèmes</string>
+    <string name="Shape">Forme • Vue</string>
+    <string name="Radius">Rayon</string>
+    <string name="Radius_desc">Changer la forme</string>
+    <string name="Select_radius">Sélectionner le rayon</string>
+    <string name="Contrast">Contraste</string>
+    <string name="Low">Faible</string>
+    <string name="Medium">Moyen</string>
+    <string name="High">Élevé</string>
+    <string name="Grid_View">Vue Grille</string>
+    <string name="Grid_View_Desc">Changer la vue des notes en grille</string>
+    <string name="Monthly_View">Vue Mensuelle</string>
+    <string name="Monthly_View_Desc">Changer pour la vue calendrier mensuelle</string>
+    <string name="Hour_Format_24">Format 24 heures</string>
+    <string name="Hour_Format_24_Desc">Utiliser le format d\'heure 24 heures</string>
+    <string name="Compact_Mode">Mode compact</string>
+    <string name="Compact_Mode_Desc">Afficher l\'espace de travail en mode compact</string>
+    <string name="Extreme_Compact_Mode">Mode ultra compact</string>
+    <string name="Extreme_Compact_Mode_Desc">Réduire l\'espacement entre les espaces de travail</string>
+    <string name="Theme_Palette">Palette de thème</string>
+    <string name="Font">Police</string>
+    <string name="Fonts">Polices</string>
+    <string name="Share_txt">Partager le fichier texte</string>
+    <string name="Share_md">Partager le fichier Markdown</string>
+    <string name="Error_Share_txt">Échec du partage du fichier texte</string>
+    <string name="Error_Share_md">Échec du partage du fichier .md</string>
+    <string name="Export_As">Exporter en tant que</string>
+    <string name="Plain_Text">Texte brut (.txt)</string>
+    <string name="Markdown">Markdown (.md)</string>
+    <string name="Change_Font">Changer la police</string>
+    <string name="share">Partager</string>
+    <string name="save">Enregistrer</string>
+    <string name="print">Imprimer</string>
+    <string name="delete">Supprimer</string>
+    <string name="share_as">Partager en tant que</string>
+    <string name="html">HTML</string>
+    <string name="image">Image</string>
+    <string name="Outline">Plan</string>
+    <string name="paragraph">Paragraphe</string>
+    <string name="words_excluding_punctuations">Mots sans ponctuation</string>
+    <string name="lines">Lignes</string>
+    <string name="show_line_numbers">Afficher les numéros de ligne</string>
+    <string name="show_line_numbers_desc">Afficher les numéros de ligne dans l’éditeur</string>
+    <string name="markdown_lint">Lint Markdown</string>
+    <string name="markdown_lint_desc">Le format et la syntaxe Markdown seront vérifiés</string>
+    <string name="color_palette">Palette de couleurs</string>
+    <string name="change_app_theme">Changer le thème de l\'application</string>
+
+    <!-- Settings - Privacy -->
+    <string name="Privacy">Confidentialité</string>
+    <string name="Privacy_desc">Protection d\'écran • Verrouillage de l\'application</string>
+    <string name="Screen_Protection">Protection d\'écran</string>
+    <string name="Screen_Protection_Desc">Désactiver les captures d\'écran</string>
+    <string name="App_Lock">Verrouillage de l\'application</string>
+    <string name="App_Lock_desc">Authentification par empreinte</string>
+    <string name="Encrypt">Chiffrer</string>
+    <string name="Encrypt_Desc">Chiffrer vos données lors de la sauvegarde</string>
+
+    <!-- Settings - Languages -->
+    <string name="Languages">Langues</string>
+    <string name="Languages_desc">Changer de langue</string>
+    <string name="System_language">Langue système</string>
+    <string name="System_language_desc">S\'adapte automatiquement à la langue de l\'appareil</string>
+
+    <!-- Settings - Backup -->
+    <string name="Backup">Sauvegarde</string>
+    <string name="Backup_Description">Sauvegarder vos données dans un fichier</string>
+    <string name="Restore">Restaurer</string>
+    <string name="Restore_Description">Restaurer vos données depuis un fichier de sauvegarde</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="backup_frequency">Fréquence de sauvegarde automatique</string>
+    <string name="reset_database">Réinitialiser la base de données</string>
+    <string name="clear_app_data">Effacer toutes les données de l’application</string>
+    <string name="never">Jamais</string>
+    <string name="daily">Quotidien</string>
+    <string name="weekly">Hebdomadaire</string>
+    <string name="monthly">Mensuel</string>
+    <string name="success">Succès</string>
+
+    <!-- Settings - About -->
+    <string name="About">À propos</string>
+    <string name="About_desc">Version • Développeurs • Code Source</string>
+    <string name="Build_type">Type de version</string>
+    <string name="Build_version">Version</string>
+    <string name="Developer">Développeur</string>
+    <string name="Developer_Name">Ronit Chinda</string>
+    <string name="Source_Code">Code Source</string>
+    <string name="Github_Repository">Dépôt Github</string>
+    <string name="license">Licence</string>
+    <string name="license_gpl3_only">GPL-3.0 Only</string>
+    <string name="user_guide_title">Guide d’utilisation</string>
+    <string name="user_guide_description">Lisez le guide pour utiliser pleinement l’application.</string>
+    <string name="privacy_policy_title">Politique de confidentialité</string>
+    <string name="privacy_policy_description">Politique de confidentialité de l’application.</string>
+    <string name="share_title">Partager</string>
+    <string name="share_description">Partagez l’application avec vos amis et votre famille.</string>
+    <string name="data_title">Données</string>
+    <string name="data_subtitle">Sauvegarde • Récupération</string>
+
+    <!-- Settings - Contact & Support -->
+    <string name="Contact">Contact</string>
+    <string name="Contact_desc">Demande de fonction • Rapport de bug</string>
+    <string name="Contact_desc2">Signaler un problème sur Github</string>
+    <string name="Support">Soutien</string>
+    <string name="Support_desc">Montrez votre soutien</string>
+    <string name="feature_request">Demande de fonctionnalité / Suggestion</string>
+    <string name="feature_request_desc">Partagez vos idées dans les discussions GitHub.</string>
+    <string name="bug_report">Rapport de bug</string>
+    <string name="email">E-mail</string>
+    <string name="email_desc">Envoyez-nous vos retours ou demandes de support par e-mail.</string>
+    <string name="discord">Discord</string>
+    <string name="discord_desc">Rejoindre le canal Discord</string>
+    <string name="no_email_app">Aucune application e-mail trouvée</string>
+
+    <!-- Workspace -->
+    <string name="Home">Accueil</string>
+    <string name="Edit_Workspace">Modifier l\'espace de travail</string>
+    <string name="Add_Workspace">Ajouter un espace de travail</string>
+    <string name="Search_Workspaces">Rechercher des espaces…</string>
+    <string name="Delete_Workspace">Supprimer l\'espace de travail</string>
+    <string name="Edit_Details">Modifier les détails</string>
+    <string name="Change_Cover">Changer la couverture</string>
+    <string name="Change_Icon">Changer l\'icône</string>
+    <string name="Lock_Workspace">Verrouiller l\'espace</string>
+    <string name="Unlock_Workspace">Déverrouiller l\'espace</string>
+    <string name="Add_Spaces">Ajouter des espaces</string>
+    <string name="Add_Space">Ajouter un espace</string>
+    <string name="Empty_Workspace">Aucun espace de travail trouvé</string>
+    <string name="Wrong_Passkey">Code secret incorrect</string>
+    <string name="enterPasskey">Entrer le code secret</string>
+    <string name="Remove_Cover">Supprimer la couverture</string>
+    <string name="Search_Here">Rechercher ici…</string>
+    <string name="current">Actuel</string>
+    <string name="add">Ajouter</string>
+    <string name="workspace_deleted">Espace de travail supprimé</string>
+
+    <!-- Space Management -->
+    <string name="Current">Actuel</string>
+    <string name="Available_Spaces">Espaces disponibles</string>
+
+    <!-- Notes -->
+    <string name="Notes">Notes</string>
+    <string name="Search_Notes">Rechercher des notes…</string>
+    <string name="Delete_Note">Supprimer la note</string>
+    <string name="Empty_Notes">Aucune note trouvée</string>
+    <string name="Last_Edited">Dernière modification</string>
+    <string name="Word_Count">Nombre de mots</string>
+    <string name="Character_Count">Nombre de caractères</string>
+    <string name="Labels">Étiquettes</string>
+    <string name="Empty_Labels">Aucune étiquette trouvée</string>
+    <string name="Edit_Labels">Modifier les étiquettes</string>
+    <string name="Add_Label">Ajouter une étiquette</string>
+    <string name="Edit_Label">Modifier l\'étiquette</string>
+    <string name="Select_Label">Sélectionner une étiquette</string>
+    <string name="Export_Note">Exporter la note</string>
+    <string name="import_success">Importé avec succès</string>
+    <string name="import_failed">Échec de l\'importation de la note</string>
+    <string name="find">Rechercher</string>
+    <string name="replace">Remplacer</string>
+    <string name="record_audio">Enregistrer l’audio</string>
+    <string name="tap_to_start">Appuyez pour démarrer</string>
+    <string name="retry">Réessayer</string>
+    <string name="permission_required">Veuillez accorder l’autorisation d’enregistrement.</string>
+    <string name="task">Tâche</string>
+    <string name="item_value">Valeur de l’élément</string>
+    <string name="list">Liste</string>
+    <string name="column">Colonne</string>
+    <string name="row">Ligne</string>
+    <string name="table">Tableau</string>
+    <string name="url">URL</string>
+    <string name="name">Nom</string>
+    <string name="link">Lien</string>
+
+    <!-- To-Do -->
+    <string name="To_Do">À faire</string>
+    <string name="Empty_Lists">Aucune liste trouvée</string>
+    <string name="Edit_list">Modifier la liste</string>
+    <string name="Add_Item">Ajouter un élément</string>
+    <string name="more">…plus</string>
+
+    <!-- Habits -->
+    <string name="Habits">Habitudes</string>
+    <string name="Empty_Habits">Aucune habitude trouvée</string>
+    <string name="Started">Commencé le</string>
+    <string name="Current_Streak">Série actuelle : </string>
+    <string name="Best_Streak">Meilleure : </string>
+    <string name="Add_Habit">Ajouter une habitude</string>
+    <string name="Edit_Habit">Modifier l\'habitude</string>
+    <string name="completed_habits">Terminée %1$d fois</string>
+    <string name="monday_short">Lun</string>
+    <string name="tuesday_short">Mar</string>
+    <string name="wednesday_short">Mer</string>
+    <string name="thursday_short">Jeu</string>
+    <string name="friday_short">Ven</string>
+    <string name="saturday_short">Sam</string>
+    <string name="sunday_short">Dim</string>
+
+    <string name="past_habits">Habitudes passées</string>
+    <string name="time">Heure</string>
+    <string name="repeat">Répéter</string>
+    <string name="never_ends">Ne se termine jamais</string>
+    <string name="ends_on">Se termine le</string>
+    <string name="mark_completed">Marquer comme terminé</string>
+    <string name="mark_pending">Marquer comme en attente</string>
+    <string name="ends_on_date">Se termine le %1$s</string>
+    <string name="weekly_habit_completion">Achèvement hebdomadaire des habitudes</string>
+    <string name="habit_already_ended">Cette habitude est déjà terminée!</string>
+    <string name="cannot_mark_future_dates">Vous ne pouvez pas marquer des dates futures!</string>
+    <string name="habit_starts_later">Votre habitude commence plus tard!</string>
+    <string name="date_not_in_schedule">Cette date ne fait pas partie de votre planning d’habitudes.</string>
+
+
+    <!-- Events -->
+    <string name="Events">Événements</string>
+    <string name="Empty_Events">Aucun événement trouvé</string>
+    <string name="Edit_Event">Modifier l\'événement</string>
+    <string name="All_Day">Toute la journée</string>
+    <string name="Repeat_Task">Répéter la tâche</string>
+    <string name="Repeat">Répéter</string>
+    <string name="Once">Une fois</string>
+    <string name="Weekly">Hebdomadaire</string>
+    <string name="Monthly">Mensuel</string>
+    <string name="Yearly">Annuel</string>
+    <string name="Status_Completed">Terminé</string>
+    <string name="Status_Pending">En attente</string>
+    <string name="Mark_As_Completed">Marquer comme terminé</string>
+    <string name="Mark_As_Uncompleted">Marquer comme non terminé</string>
+    <string name="recurrence_once">Une fois le %1$s</string>
+    <string name="recurrence_daily">Quotidien</string>
+    <string name="recurrence_every_x_days">Tous les %1$d jours</string>
+    <string name="recurrence_weekly_on">Hebdomadaire le %1$s</string>
+    <string name="recurrence_monthly_on">Mensuel le jour %1$d</string>
+    <string name="recurrence_yearly_on">Annuel le %1$s</string>
+    <string name="recurrence_at_time">%1$s à %2$s</string>
+
+    <!-- Event Notifications -->
+    <string name="On_Time">Au moment de l\'événement</string>
+    <string name="five_minutes_before">5 minutes avant</string>
+    <string name="ten_minutes_before">10 minutes avant</string>
+    <string name="fifteen_minutes_before">15 minutes avant</string>
+    <string name="thirty_minutes_before">30 minutes avant</string>
+    <string name="one_hour_before">1 heure avant</string>
+    <string name="Custom_Notification">Notification personnalisée</string>
+    <string name="Add_Notification">Ajouter une notification</string>
+    <string name="Select_Time">Sélectionner l\'heure</string>
+
+    <!-- Time Units -->
+    <string name="day">jour</string>
+    <string name="days">Jours</string>
+    <string name="hour">heure</string>
+    <string name="hours">Heures</string>
+    <string name="minute">minute</string>
+    <string name="minutes">Minutes</string>
+    <string name="before">avant</string>
+
+    <!-- Calendar -->
+    <string name="Calendar">Calendrier</string>
+
+    <!-- Journal -->
+    <string name="Journal">Journal</string>
+    <string name="Write_here">Écrivez ici…</string>
+    <string name="Empty_Journal">Aucune entrée trouvée</string>
+    <string name="Today_Entry">Entrée du jour</string>
+
+    <!-- Analytics -->
+    <string name="Analytics">Statistiques</string>
+    <string name="Empty_Analytics">Ajoutez des espaces pour voir les statistiques ici</string>
+    <string name="HeatMap">Suivi des habitudes</string>
+    <string name="Completed_Today">Terminé aujourd\'hui</string>
+    <string name="This_Week">Cette semaine</string>
+    <string name="This_Month">Ce mois-ci</string>
+    <string name="Upcoming">À venir</string>
+    <string name="Failed">Échoué</string>
+    <string name="Completed">Terminé</string>
+    <string name="journals_written">%1$d journaux écrits</string>
+    <string name="best_streak">Meilleure : %1$d jours</string>
+    <string name="completion_percentage">%1$d%% Terminé</string>
+
+    <!-- Error Messages -->
+    <string name="Error_Alarm_Permission_Settings">Impossible d\'ouvrir les paramètres d\'autorisation d\'alarme</string>
+    <string name="Error_Schedule_Alarm_Failed">Erreur : Échec de la programmation de l\'alarme</string>
+    <string name="Error_Cancel_Alarm_Failed">Erreur : Échec de l\'annulation de l\'alarme</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="Add_Spaces_Content_Desc">Ajouter-espaces</string>
+    <string name="Space_Content_Desc">espace</string>
+    <string name="Edit_Space_Content_Desc">Modifier-espace</string>
+
+    <string name="editor_title">Éditeur</string>
+    <string name="editor_subtitle">Vue par défaut • Mode d’édition par défaut</string>
+
+    <string name="show_line_numbers_title">Afficher les numéros de ligne</string>
+    <string name="show_line_numbers_description">
+        Afficher les numéros de ligne dans l’éditeur
+    </string>
+
+    <string name="markdown_lint_title">Lint Markdown</string>
+    <string name="markdown_lint_description">
+        Le format et la syntaxe Markdown seront vérifiés
+    </string>
+
+    <string name="default_editor_view">Vue par défaut de l’éditeur</string>
+
+    <string name="reading_view">Vue de lecture</string>
+    <string name="editing_view">Vue d’édition</string>
+
+    <string name="shareContent">
+        Flux est une application moderne de productivité Android entièrement conçue avec Compose.\n
+        Elle permet de créer, modifier et supprimer des espaces de travail avec des modèles comme Notes, Habitudes, Journal, Tâches, Événements, etc., ainsi que des fonctionnalités avancées telles que rechercher/remplacer, modèles de notes, import local d’images/vidéos/audio, Markdown, formules LaTeX et diagrammes Mermaid.\n
+        Téléchargez-la dès maintenant :\n
+        - GitHub :  https://github.com/chindaronit/Flux/releases\n
+        - F-Droid : https://f-droid.org/packages/com.flux/
+    </string>
+
+    <string name="select_folder">Sélectionner un dossier</string>
+    <string name="select_folder_description">Sélectionnez où stocker les données de l\'application, y compris les images, l\'audio, les vidéos, les documents et les sauvegardes</string>
+
+    <!-- Progress Tracker -->
+    <string name="not_started">Non commencé</string>
+    <string name="in_progress" tools:ignore="PrivateResource">En cours</string>
+    <string name="empty">Vide</string>
+    <string name="target">Objectif</string>
+    <string name="start">Début</string>
+    <string name="progress_tracker">Suivi de progression</string>
+
+    <!-- values-fr/strings.xml -->
+
+    <string name="system_time_format_title">Format de l\'heure système</string>
+    <string name="system_time_format_description">S’adapte automatiquement au format horaire du système</string>
+
+    <string name="mode_title">Mode</string>
+    <string name="mode_description">Normal • Compact</string>
+
+    <string name="made_in_india">Fabriqué en Inde</string>
+
+    <string name="compact_mode">Mode compact</string>
+    <string name="default_mode">Mode par défaut</string>
+
+    <string name="select_mode">Sélectionner le mode</string>
+
+    <string name="no_options_available">Aucune option disponible</string>
+
+    <string name="current_habit_status">État actuel de l’habitude</string>
+
+    <string name="goal">Objectif</string>
+    <string name="completion">Achèvement</string>
+
+    <string name="decrement">Diminuer</string>
+    <string name="increment">Augmenter</string>
+    <string name="log_time">Enregistrer le temps</string>
+
+    <string name="current_streak">Actuel %1$d</string>
+
+    <string name="habit_type_simple">Simple</string>
+    <string name="habit_type_timed">Minuté</string>
+    <string name="habit_type_counter">Compteur</string>
+
+    <string name="type">Type</string>
+
+    <string name="remind_at">Rappeler à</string>
+
+    <string name="timer">Minuteur</string>
+
+    <string name="active_from">Actif à partir de</string>
+    <string name="active_until">Actif jusqu’à</string>
+
+    <string name="notify_every">Notifier chaque</string>
+
+    <string name="unit">Unité</string>
+
+    <string name="this_year">Cette année</string>
+
+    <string name="reminder_time">Heure du rappel</string>
+
+    <string name="end_time_greater_than_start">
+    L’heure de fin doit être supérieure à l’heure de début
+</string>
+
+    <string name="unit_optional">Unité (Optionnel)</string>
+
+    <string name="from">De</string>
+    <string name="to">À</string>
+
+    <string name="remind_every">Rappeler chaque</string>
+
+    <string name="habit_reminder_count">
+    L’habitude rappellera %1$d fois par jour.
+</string>
+
+    <string name="duration">Durée</string>
+
+    <string name="future_journal_entries_not_allowed">
+    Les entrées de journal futures ne sont pas autorisées
+</string>
+
+    <string name="empty_no_data_found">Vide ! Aucune donnée trouvée</string>
+    <string name="oops_no_language_found">Oups ! Aucune langue trouvée</string>
+
+    <string name="marked_done">Marqué comme terminé</string>
+    <string name="failed">Échoué</string>
+
+    <string name="category_others">Autres</string>
+    <string name="category_default">Par défaut</string>
+    <string name="category_food">Nourriture</string>
+    <string name="category_emoji">Emoji</string>
+    <string name="category_finance_analytics">Finance - Analytique</string>
+    <string name="journal_heat_map">Carte thermique du journal</string>
+
+    <string name="selected_spaces">Espaces sélectionnés</string>
+    <string name="available_spaces">Espaces disponibles</string>
+    <string name="other_available">Autres disponibles</string>
+    <string name="passkey">Clé d’accès</string>
+    <string name="icon">Icône</string>
+    <string name="latest">Le plus récent</string>
+    <string name="oldest">Le plus ancien</string>
+    <string name="filter_by_date">Filtrer par date</string>
+    <string name="labels">Étiquettes</string>
+    <string name="date">Date</string>
+
+    <string name="view">Vue</string>
+    <string name="list_view">Vue en liste</string>
+    <string name="grid_view">Vue en grille</string>
+    <string name="pinned">Épinglé</string>
+    <string name="unpinned">Non épinglé</string>
+    <string name="sort_by">Trier par</string>
+
+    <string name="Import">Importer</string>
+    <string name="create">Créer</string>
+    <string name="clear">Effacer</string>
+    <string name="spaces">Espaces</string>
+    <string name="workspaces">Espaces de travail</string>
+    <string name="item_removed">Élément supprimé</string>
+    <string name="undo">Annuler</string>
+    <string name="notes_preview">Aperçu des notes</string>
+    <string name="change_preview_setting_for_notes">Modifier les paramètres d’aperçu des notes</string>
+    <string name="change_height">Modifier la hauteur</string>
+    <string name="normal">Normal</string>
+    <string name="elongated">Allongé</string>
+    <string name="video">Vidéo</string>
+    <string name="audio">Audio</string>
+    <string name="compact">Compact</string>
+
+    <string name="content_copied">Contenu copié !</string>
+    <string name="content_moved">Contenu déplacé !</string>
+    <string name="clone_created_successfully">Clone créé avec succès</string>
+    <string name="days_left">%1$d jours restants</string>
+    <string name="one_day_left">1 jour restant</string>
+    <string name="one_day_overdue">1 jour de retard</string>
+    <string name="days_overdue">%1$d jours de retard</string>
+    <string name="start_date_after_target_error">La date de début ne peut pas être après la date cible</string>
+    <string name="target_date_before_start_error">La date cible ne peut pas être avant la date de début</string>
+    <string name="convert">Convertir</string>
+    <string name="convert_to_note">Convertir en note</string>
+    <string name="convert_to_todo">Convertir en tâche</string>
+    <string name="convert_to_journal">Convertir en journal</string>
+    <string name="clone">Cloner</string>
+    <string name="copy">Copier</string>
+    <string name="move">Déplacer</string>
+    <string name="select_workspaces">Sélectionner des espaces de travail</string>
+    <string name="turn_on_reminder">Activez le rappel pour cette liste de tâches !</string>
+    <string name="created">Créé</string>
+    <string name="reminder">Rappel</string>
+    <string name="scheduled">Planifié</string>
+    <string name="true_text">Vrai</string>
+    <string name="false_text">Faux</string>
+    <string name="off">Désactivé</string>
+    <string name="completed">Terminé</string>
+    <string name="remaining">Restant</string>
+
+
+    <string name="habit_achievement">Réussite de l\'habitude</string>
+    <string name="consistency">Régularité</string>
+    <string name="percent">Pourcentage</string>
+    <string name="keep_it_going">Continuez comme ça !</string>
+    <string name="longest_streak">Plus longue série</string>
+    <string name="personal_best">Record personnel</string>
+    <string name="last_30_days">30 derniers jours</string>
+    <string name="tracked_by_flux">Suivi par @Flux</string>
+    <string name="available_on_fdroid_izzyondroid">Disponible sur F-Droid, IzzyOnDroid</string>
+    <string name="share_achievement">Partager le résultat</string>
+    <string name="not_scheduled">Non planifié</string>
+    <string name="missed">Manqué</string>
+    <string name="pick_a_todo">Choisir une tâche</string>
+
+    <string name="list_items">Éléments de la liste</string>
+    <string name="no_checklist_for_date">Aucune liste de contrôle pour cette date.</string>
+    <string name="tracking_starts_later">Le suivi commence plus tard !</string>
+    <string name="removed_items">Éléments supprimés</string>
+    <string name="no_data_yet">Aucune donnée pour le moment</string>
+    <string name="item_consistency">Cohérence des éléments</string>
+    <string name="current_streak_text">Série actuelle</string>
+    <string name="drag_horizontally_to_reorder">Faites glisser horizontalement pour réorganiser</string>
+    <string name="delete_alert">Alerte de suppression !</string>
+    <string name="delete_spaces_alert">Vous êtes sur le point de supprimer définitivement les espaces %1$s avec toutes leurs données. Cette action est irréversible.</string>
+
+    <string name="set_backup_password_title">Définir un mot de passe de sauvegarde</string>
+    <string name="enter_backup_password_title">Saisir le mot de passe de sauvegarde</string>
+    <string name="backup_password_setting">Définir un mot de passe de sauvegarde</string>
+    <string name="backup_encrypted">Les sauvegardes sont chiffrées</string>
+    <string name="backup_not_encrypted">Les sauvegardes ne sont pas chiffrées</string>
+    <string name="backup_password">Mot de passe de sauvegarde</string>
+    <string name="backup_password_description">Ce mot de passe ne peut pas être récupéré s\'il est perdu. Vous en aurez besoin pour restaurer cette sauvegarde sur n\'importe quel appareil.</string>
+    <string name="set_backup_password">Définir un mot de passe de sauvegarde</string>
+    <string name="auto_backup_requires_password">La sauvegarde automatique est activée, mais aucun mot de passe n\'est défini. Les sauvegardes ne peuvent donc pas être exécutées en toute sécurité. Définissez un mot de passe maintenant ou désactivez la sauvegarde automatique.</string>
+    <string name="go_to_settings">Aller aux paramètres</string>
+    <string name="change_backup_password_title">Changer le mot de passe de sauvegarde ?</string>
+    <string name="change_backup_password_message">Les sauvegardes déjà chiffrées avec votre mot de passe actuel ne pourront plus être restaurées après cette modification. Les nouvelles sauvegardes utiliseront le nouveau mot de passe. Cette action est irréversible.</string>
+    <string name="set_password">Définir le mot de passe</string>
+    <string name="turn_off_auto_backup">Désactiver la sauvegarde automatique</string>
+    <string name="unsupported_backup_version">Version de sauvegarde non prise en charge : %1$s</string>
+    <string name="backup_wrong_password_or_corrupted">Mot de passe incorrect, ou le fichier est corrompu ou a été modifié.</string>
+
+    <string name="social_link_removed">Lien social supprimé</string>
+    <string name="discard_changes">Ignorer les modifications ?</string>
+    <string name="discard_changes_message">Vous avez effectué des modifications mais n\'avez pas ajouté de titre. Ajoutez un titre pour enregistrer ou ignorez les modifications.</string>
+    <string name="discard">Ignorer</string>
+    <string name="keep_editing">Continuer la modification</string>
+    <string name="add_social">Ajouter un lien social</string>
+    <string name="changelog">Journal des modifications</string>
+    <string name="changelog_description">Suivez les modifications de chaque version.</string>
+
+    <string name="change">Modifier</string>
+    <string name="change_root_directory">Modifier le répertoire racine des données Flux</string>
+    <string name="change_storage_root">Modifier la racine de stockage</string>
+    <string name="couldnt_move_data">Impossible de déplacer les données</string>
+    <string name="please_dont_close_app">Veuillez ne pas fermer l’application</string>
+    <string name="moving_your_data">Déplacement de vos données…</string>
+    <string name="more_files">…et %1$d de plus</string>
+    <string name="files_progress">%1$d / %2$d fichiers</string>
+
+    <string name="welcome_back">Bon retour sur</string>
+    <string name="authenticate">S’authentifier</string>
+    <string name="private_secure">Privé &amp; sécurisé</string>
+    <string name="biometric_unlock_description">Utilisez la biométrie de votre appareil pour déverrouiller vos données Flux en toute sécurité.</string>
+    <string name="biometric_data_never_leaves">Vos données biométriques ne quittent jamais votre appareil</string>
+
+    <string name="default_screen">Écran par défaut</string>
+    <string name="default_screen_description">L’écran par défaut sera ouvert au lancement de l’application</string>
+    <string name="change_default_screen_description">Modifier l’écran chargé en premier au lancement de l’application</string>
+    <string name="add_new_item">Ajouter un nouvel élément</string>
+    <string name="edit_item">Modifier l’élément</string>
+</resources>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">फ्लक्स</string>
+
+    <!-- Authentication -->
+    <string name="Auth_with_Biometric">बायोमेट्रिक से प्रमाणीकरण करें</string>
+    <string name="Auth_Error">त्रुटि: प्रमाणीकरण विफल हुआ</string>
+    <string name="Biometric_Title">बायोमेट्रिक प्रमाणीकरण</string>
+    <string name="Biometric_Subtitle">प्रमाणित करने के लिए अपनी उंगली का निशान या चेहरा उपयोग करें</string>
+    <string name="Biometric_Cancel">रद्द करें</string>
+
+    <!-- Common UI Elements -->
+    <string name="Pin">पिन करें</string>
+    <string name="Unpin">अनपिन करें</string>
+    <string name="Pinned">पिन की गई</string>
+    <string name="Dismiss">खारिज करें</string>
+    <string name="Confirm">पुष्टि करें</string>
+    <string name="Cancel">रद्द करें</string>
+    <string name="Set">सेट करें</string>
+    <string name="Custom">कस्टम</string>
+    <string name="Today">Today</string>
+    <string name="New">New</string>
+    <string name="Others">अन्य</string>
+    <string name="Title">शीर्षक</string>
+    <string name="Description">विवरण</string>
+    <string name="Amount">राशि</string>
+    <string name="at">at</string>
+    <string name="on">on</string>
+
+    <!-- Dialog Messages -->
+    <string name="deleteDialogTitle">क्या आप वाकई सुनिश्चित हैं?</string>
+    <string name="deleteDialogText">यह पूर्ववत नहीं किया जा सकता, यह सभी डेटा को स्थायी रूप से हटा देगा।</string>
+    <string name="removeDialogTitle">स्पेस हटाएं?</string>
+    <string name="removeDialogText">इसे पूर्ववत नहीं किया जा सकता, यह इस स्पेस का सारा डेटा हटा देगा।</string>
+
+    <!-- Permissions -->
+    <string name="Reminder_Permission">कृपया रिमाइंडर चालू करें</string>
+    <string name="Notification_Permission">कृपया सूचनाएँ चालू करें</string>
+
+    <!-- Settings -->
+    <string name="Settings">सेटिंग्स</string>
+
+    <!-- Settings - Customize -->
+    <string name="Customize">अनुकूलित करें</string>
+    <string name="Customize_desc">थीम • आकृति • कंट्रास्ट</string>
+    <string name="System_theme">सिस्टम थीम</string>
+    <string name="System_theme_desc">डिवाइस की थीम के अनुसार स्वचालित रूप से अनुकूलित</string>
+    <string name="Light_theme">लाइट थीम</string>
+    <string name="Light_theme_desc">लाइट थीम में बदलें</string>
+    <string name="Dark_theme">डार्क थीम</string>
+    <string name="Dark_theme_desc">डार्क थीम में बदलें</string>
+    <string name="Dynamic_theme">डायनामिक थीम</string>
+    <string name="Dynamic_theme_desc">पृष्ठभूमि के अनुसार स्वचालित रूप से अनुकूलित</string>
+    <string name="Amoled_theme">एमोलेड थीम</string>
+    <string name="Amoled_theme_desc">पृष्ठभूमि के लिए काला रंग उपयोग करें</string>
+    <string name="Themes">थीम्स</string>
+    <string name="Shape">आकार • दृश्य</string>
+    <string name="Radius">कोण</string>
+    <string name="Radius_desc">आकार बदलें</string>
+    <string name="Select_radius">कोण चुनें</string>
+    <string name="Contrast">कंट्रास्ट</string>
+    <string name="Low">कम</string>
+    <string name="Medium">मध्यम</string>
+    <string name="High">उच्च</string>
+    <string name="Grid_View">ग्रिड दृश्य</string>
+    <string name="Grid_View_Desc">नोट्स का दृश्य ग्रिड में बदलें</string>
+    <string name="Monthly_View">मासिक दृश्य</string>
+    <string name="Monthly_View_Desc">मासिक कैलेंडर दृश्य में बदलें</string>
+    <string name="Hour_Format_24">24-घंटे का प्रारूप</string>
+    <string name="Hour_Format_24_Desc">24-घंटे का समय प्रारूप उपयोग करें</string>
+    <string name="Compact_Mode">कॉम्पैक्ट मोड</string>
+    <string name="Compact_Mode_Desc">वर्कस्पेस को कॉम्पैक्ट मोड में दिखाएँ</string>
+    <string name="Extreme_Compact_Mode">अत्यधिक कॉम्पैक्ट मोड</string>
+    <string name="Extreme_Compact_Mode_Desc">वर्कस्पेस के बीच की दूरी और कम करें</string>
+    <string name="Theme_Palette">थीम पैलेट</string>
+    <string name="Font">फ़ॉन्ट</string>
+    <string name="Fonts">फ़ॉन्ट्स</string>
+    <string name="Share_txt">टेक्स्ट फ़ाइल साझा करें</string>
+    <string name="Share_md">Markdown फ़ाइल साझा करें</string>
+    <string name="Error_Share_txt">टेक्स्ट फ़ाइल साझा करने में विफल</string>
+    <string name="Error_Share_md">.md फ़ाइल साझा करने में विफल</string>
+    <string name="Export_As">के रूप में निर्यात करें</string>
+    <string name="Plain_Text">साधारण पाठ (.txt)</string>
+    <string name="Markdown">मार्कडाउन (.md)</string>
+    <string name="Change_Font">फ़ॉन्ट बदलें</string>
+    <string name="share">साझा करें</string>
+    <string name="save">सहेजें</string>
+    <string name="print">प्रिंट</string>
+    <string name="delete">हटाएँ</string>
+    <string name="share_as">इस रूप में साझा करें</string>
+    <string name="html">HTML</string>
+    <string name="image">छवि</string>
+    <string name="Outline">रूपरेखा</string>
+    <string name="paragraph">अनुच्छेद</string>
+    <string name="words_excluding_punctuations">विराम चिह्नों को छोड़कर शब्द</string>
+    <string name="lines">पंक्तियाँ</string>
+    <string name="show_line_numbers">पंक्ति संख्याएँ दिखाएँ</string>
+    <string name="show_line_numbers_desc">संपादक में पंक्ति संख्याएँ दिखाएँ</string>
+    <string name="markdown_lint">मार्कडाउन लिंट</string>
+    <string name="markdown_lint_desc">मार्कडाउन फ़ॉर्मेट और सिंटैक्स की जाँच की जाएगी</string>
+    <string name="color_palette">रंग पैलेट</string>
+    <string name="change_app_theme">ऐप थीम बदलें</string>
+
+    <!-- Settings - Privacy -->
+    <string name="Privacy">गोपनीयता</string>
+    <string name="Privacy_desc">स्क्रीन सुरक्षा • ऐप लॉक</string>
+    <string name="Screen_Protection">स्क्रीन सुरक्षा</string>
+    <string name="Screen_Protection_Desc">स्क्रीनशॉट निष्क्रिय करें</string>
+    <string name="App_Lock">ऐप लॉक</string>
+    <string name="App_Lock_desc">फिंगरप्रिंट प्रमाणीकरण</string>
+    <string name="Encrypt">Encrypt</string>
+    <string name="Encrypt_Desc">Encrypt your data when backup</string>
+
+    <!-- Settings - Languages -->
+    <string name="Languages">भाषाएँ</string>
+    <string name="Languages_desc">भाषा बदलें</string>
+    <string name="System_language">सिस्टम भाषा</string>
+    <string name="System_language_desc">डिवाइस की भाषा के अनुसार स्वचालित रूप से अनुकूलित</string>
+
+    <!-- Settings - Backup -->
+    <string name="Backup">बैकअप</string>
+    <string name="Backup_Description">अपने डेटा का बैकअप फ़ाइल में लें</string>
+    <string name="Restore">पुनर्स्थापित करें</string>
+    <string name="Restore_Description">बैकअप फ़ाइल से अपना डेटा पुनर्स्थापित करें</string>
+    <string name="reset">रीसेट करें</string>
+    <string name="backup_frequency">स्वचालित बैकअप की आवृत्ति</string>
+    <string name="reset_database">डेटाबेस रीसेट करें</string>
+    <string name="clear_app_data">सभी ऐप डेटा साफ़ करें</string>
+    <string name="never">कभी नहीं</string>
+    <string name="daily">दैनिक</string>
+    <string name="weekly">साप्ताहिक</string>
+    <string name="monthly">मासिक</string>
+    <string name="success">सफलता</string>
+
+    <!-- Settings - About -->
+    <string name="About">अबाउट</string>
+    <string name="About_desc">संस्करण • डेवलपर्स • स्रोत कोड</string>
+    <string name="Build_type">बिल्ड प्रकार</string>
+    <string name="Build_version">बिल्ड संस्करण</string>
+    <string name="Developer">डेवलपर</string>
+    <string name="Developer_Name">रोनित चिंदा</string>
+    <string name="Source_Code">सोर्स कोड</string>
+    <string name="Github_Repository">गिटहब रिपोजिटरी</string>
+    <string name="license">लाइसेंस</string>
+    <string name="license_gpl3_only">GPL-3.0 Only</string>
+    <string name="user_guide_title">उपयोगकर्ता मार्गदर्शिका</string>
+    <string name="user_guide_description">एप्लिकेशन का पूर्ण उपयोग करने के लिए मार्गदर्शिका पढ़ें।</string>
+    <string name="privacy_policy_title">गोपनीयता नीति</string>
+    <string name="privacy_policy_description">एप्लिकेशन की गोपनीयता नीति।</string>
+    <string name="share_title">साझा करें</string>
+    <string name="share_description">एप्लिकेशन को मित्रों और परिवार के साथ साझा करें।</string>
+    <string name="data_title">डेटा</string>
+    <string name="data_subtitle">बैकअप • रिकवरी</string>
+
+    <!-- Settings - Contact & Support -->
+    <string name="Contact">संपर्क करें</string>
+    <string name="Contact_desc">फ़ीचर अनुरोध • बग रिपोर्ट</string>
+    <string name="Contact_desc2">गिटहब पर समस्या उठाएँ</string>
+    <string name="Support">सहायता</string>
+    <string name="Support_desc">अपना समर्थन दिखाएँ</string>
+    <string name="feature_request">फ़ीचर अनुरोध / सुझाव</string>
+    <string name="feature_request_desc">अपने विचार GitHub Discussions पर साझा करें।</string>
+    <string name="bug_report">बग रिपोर्ट</string>
+    <string name="email">ईमेल</string>
+    <string name="email_desc">प्रतिक्रिया या सहायता के लिए हमें ईमेल करें।</string>
+    <string name="discord">डिस्कॉर्ड</string>
+    <string name="discord_desc">डिस्कॉर्ड चैनल से जुड़ें</string>
+    <string name="no_email_app">कोई ईमेल ऐप नहीं मिला</string>
+
+    <!-- Workspace -->
+    <string name="Home">होम</string>
+    <string name="Edit_Workspace">वर्कस्पेस संपादित करें</string>
+    <string name="Add_Workspace">वर्कस्पेस जोड़ें</string>
+    <string name="Search_Workspaces">वर्कस्पेस खोजें…</string>
+    <string name="Delete_Workspace">वर्कस्पेस हटाएँ</string>
+    <string name="Edit_Details">विवरण संपादित करें</string>
+    <string name="Change_Cover">कवर बदलें</string>
+    <string name="Change_Icon">Change Icon</string>
+    <string name="Lock_Workspace">वर्कस्पेस लॉक करें</string>
+    <string name="Unlock_Workspace">वर्कस्पेस अनलॉक करें</string>
+    <string name="Add_Spaces">स्पेस जोड़ें</string>
+    <string name="Add_Space">स्पेस जोड़ें</string>
+    <string name="Empty_Workspace">कोई वर्कस्पेस नहीं मिला</string>
+    <string name="Wrong_Passkey">Wrong Passkey</string>
+    <string name="enterPasskey">पासकी दर्ज करें</string>
+    <string name="Remove_Cover">कवर हटाएँ</string>
+    <string name="Search_Here">यहाँ खोजें…</string>
+    <string name="current">वर्तमान</string>
+    <string name="add">जोड़ें</string>
+    <string name="workspace_deleted">वर्कस्पेस हटाया गया</string>
+
+    <!-- Space Management -->
+    <string name="Current">वर्तमान</string>
+    <string name="Available_Spaces">उपलब्ध स्थान</string>
+
+    <!-- Notes -->
+    <string name="Notes">नोट्स</string>
+    <string name="Search_Notes">नोट्स खोजें…</string>
+    <string name="Delete_Note">नोट हटाएं</string>
+    <string name="Empty_Notes">कोई नोट नहीं मिला</string>
+    <string name="Last_Edited">अंतिम संपादन</string>
+    <string name="Word_Count">शब्दों की संख्या</string>
+    <string name="Character_Count">अक्षरों की संख्या</string>
+    <string name="Labels">लेबल</string>
+    <string name="Empty_Labels">कोई लेबल नहीं मिला</string>
+    <string name="Edit_Labels">लेबल संपादित करें</string>
+    <string name="Add_Label">नया लेबल जोड़ें</string>
+    <string name="Edit_Label">लेबल संपादित करें</string>
+    <string name="Select_Label">लेबल चुनें</string>
+    <string name="Export_Note">नोट निर्यात करें</string>
+    <string name="import_success">सफलतापूर्वक आयात किया गया</string>
+    <string name="import_failed">नोट आयात करने में विफल</string>
+    <string name="find">खोजें</string>
+    <string name="replace">बदलें</string>
+    <string name="record_audio">ऑडियो रिकॉर्ड करें</string>
+    <string name="tap_to_start">शुरू करने के लिए टैप करें</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="permission_required">कृपया रिकॉर्डिंग की अनुमति दें।</string>
+    <string name="task">कार्य</string>
+    <string name="item_value">आइटम मान</string>
+    <string name="list">सूची</string>
+    <string name="column">स्तंभ</string>
+    <string name="row">पंक्ति</string>
+    <string name="table">तालिका</string>
+    <string name="url">यूआरएल</string>
+    <string name="name">नाम</string>
+    <string name="link">लिंक</string>
+
+    <!-- To-Do -->
+    <string name="To_Do">करने के कार्य</string>
+    <string name="Empty_Lists">कोई सूची नहीं मिली</string>
+    <string name="Edit_list">सूची संपादित करें</string>
+    <string name="Add_Item">नया आइटम जोड़ें</string>
+    <string name="more">…और</string>
+
+    <!-- Habits -->
+    <string name="Habits">आदतें</string>
+    <string name="Empty_Habits">कोई आदत नहीं मिली</string>
+    <string name="Started">शुरुआत</string>
+    <string name="Current_Streak">वर्तमान क्रम</string>
+    <string name="Best_Streak">सर्वश्रेष्ठ क्रम</string>
+    <string name="Add_Habit">आदत जोड़ें</string>
+    <string name="Edit_Habit">आदत संपादित करें</string>
+    <string name="completed_habits">%1$d बार पूरा किया गया</string>
+    <string name="monday_short">सोम</string>
+    <string name="tuesday_short">मंगल</string>
+    <string name="wednesday_short">बुध</string>
+    <string name="thursday_short">गुरु</string>
+    <string name="friday_short">शुक्र</string>
+    <string name="saturday_short">शनि</string>
+    <string name="sunday_short">रवि</string>
+
+    <string name="past_habits">पिछली आदतें</string>
+    <string name="time">समय</string>
+    <string name="repeat">दोहराएं</string>
+    <string name="never_ends">कभी समाप्त नहीं होता</string>
+    <string name="ends_on">समाप्त होता है</string>
+    <string name="mark_completed">पूर्ण चिह्नित करें</string>
+    <string name="mark_pending">अपूर्ण चिह्नित करें</string>
+    <string name="ends_on_date">%1$s को समाप्त होता है</string>
+    <string name="weekly_habit_completion">साप्ताहिक आदत पूर्णता</string>
+    <string name="habit_already_ended">यह आदत पहले ही समाप्त हो चुकी है!</string>
+    <string name="cannot_mark_future_dates">आप भविष्य की तिथियों को चिह्नित नहीं कर सकते!</string>
+    <string name="habit_starts_later">आपकी आदत बाद में शुरू होती है!</string>
+    <string name="date_not_in_schedule">यह तिथि आपकी आदत अनुसूची का हिस्सा नहीं है।</string>
+
+
+    <!-- Events -->
+    <string name="Events">इवेंट्स</string>
+    <string name="Empty_Events">कोई ईवेंट नहीं मिला</string>
+    <string name="Edit_Event">ईवेंट संपादित करें</string>
+    <string name="All_Day">पूरा दिन</string>
+    <string name="Repeat_Task">कार्य दोहराएं</string>
+    <string name="Repeat">दोहराएँ</string>
+    <string name="Once">एक बार</string>
+    <string name="Weekly">साप्ताहिक</string>
+    <string name="Monthly">मासिक</string>
+    <string name="Yearly">वार्षिक</string>
+    <string name="Status_Completed">पूर्ण</string>
+    <string name="Status_Pending">लंबित</string>
+    <string name="Mark_As_Completed">पूर्ण के रूप में चिन्हित करें</string>
+    <string name="Mark_As_Uncompleted">अपूर्ण के रूप में चिन्हित करें</string>
+    <string name="recurrence_once">एक बार %1$s को</string>
+    <string name="recurrence_daily">प्रतिदिन</string>
+    <string name="recurrence_every_x_days">हर %1$d दिन</string>
+    <string name="recurrence_weekly_on">साप्ताहिक %1$s को</string>
+    <string name="recurrence_monthly_on">हर महीने की %1$d तारीख़ को</string>
+    <string name="recurrence_yearly_on">हर साल %1$s को</string>
+    <string name="recurrence_at_time">%1$s को %2$s बजे</string>
+
+    <!-- Event Notifications -->
+    <string name="On_Time">ईवेंट के समय</string>
+    <string name="five_minutes_before">5 मिनट पहले</string>
+    <string name="ten_minutes_before">10 मिनट पहले</string>
+    <string name="fifteen_minutes_before">15 मिनट पहले</string>
+    <string name="thirty_minutes_before">30 मिनट पहले</string>
+    <string name="one_hour_before">1 घंटे पहले</string>
+    <string name="Custom_Notification">कस्टम सूचना</string>
+    <string name="Add_Notification">सूचना जोड़ें</string>
+    <string name="Select_Time">समय चुनें</string>
+
+    <!-- Time Units -->
+    <string name="day">दिन</string>
+    <string name="days">दिन</string>
+    <string name="hour">घंटा</string>
+    <string name="hours">घंटे</string>
+    <string name="minute">मिनट</string>
+    <string name="minutes">मिनट</string>
+    <string name="before">पहले</string>
+
+    <!-- Calendar -->
+    <string name="Calendar">कैलेंडर</string>
+
+    <!-- Journal -->
+    <string name="Journal">जर्नल</string>
+    <string name="Write_here">यहाँ लिखें…</string>
+    <string name="Empty_Journal">कोई प्रविष्टि नहीं मिली</string>
+    <string name="Today_Entry">आज की प्रविष्टि</string>
+
+    <!-- Analytics -->
+    <string name="Analytics">विश्लेषण</string>
+    <string name="Empty_Analytics">एनालिटिक्स देखने के लिए स्पेस जोड़ें</string>
+    <string name="HeatMap">आदत हीट मैप</string>
+    <string name="Completed_Today">आज पूरा किया</string>
+    <string name="This_Week">इस सप्ताह</string>
+    <string name="This_Month">इस महीने</string>
+    <string name="Upcoming">आगामी</string>
+    <string name="Failed">असफल</string>
+    <string name="Completed">पूरा हुआ</string>
+    <string name="journals_written">%1$d जर्नल्स लिखे गए</string>
+    <string name="best_streak">सर्वश्रेष्ठ: %1$d दिन</string>
+    <string name="completion_percentage">%1$d%% पूर्णता</string>
+
+    <!-- Error Messages -->
+    <string name="Error_Alarm_Permission_Settings">अलार्म अनुमति सेटिंग्स खोलने में असमर्थ</string>
+    <string name="Error_Schedule_Alarm_Failed">त्रुटि: अलार्म शेड्यूल करने में विफल</string>
+    <string name="Error_Cancel_Alarm_Failed">त्रुटि: अलार्म रद्द करने में विफल</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="Add_Spaces_Content_Desc">स्पेस जोड़ें</string>
+    <string name="Space_Content_Desc">स्पेस</string>
+    <string name="Edit_Space_Content_Desc">स्पेस संपादित करें</string>
+
+    <string name="editor_title">संपादक</string>
+    <string name="editor_subtitle">डिफ़ॉल्ट दृश्य • डिफ़ॉल्ट संपादन मोड</string>
+
+    <string name="show_line_numbers_title">पंक्ति संख्याएँ दिखाएँ</string>
+    <string name="show_line_numbers_description">
+        संपादक में पंक्ति संख्याएँ दिखाएँ
+    </string>
+
+    <string name="markdown_lint_title">मार्कडाउन लिंट</string>
+    <string name="markdown_lint_description">
+        मार्कडाउन फ़ॉर्मेट और सिंटैक्स की जाँच की जाएगी
+    </string>
+
+    <string name="default_editor_view">डिफ़ॉल्ट संपादक दृश्य</string>
+
+    <string name="reading_view">पठन दृश्य</string>
+    <string name="editing_view">संपादन दृश्य</string>
+
+    <string name="shareContent">
+        Flux एक आधुनिक Android प्रोडक्टिविटी ऐप है जिसे पूरी तरह Compose से बनाया गया है।\n
+        यह आपको Notes, Habits, Journal, To-Do, Events आदि जैसे टेम्पलेट्स के साथ वर्कस्पेस बनाने, संपादित करने और हटाने की सुविधा देता है, साथ ही find &amp; replace, note templates, लोकल इमेज/वीडियो/ऑडियो इम्पोर्ट, Markdown, LaTeX गणित सूत्र और Mermaid डायग्राम सपोर्ट जैसी उन्नत सुविधाएँ प्रदान करता है।\n
+        अभी डाउनलोड करें:\n
+        - GitHub:  https://github.com/chindaronit/Flux/releases\n
+        - F-Droid: https://f-droid.org/packages/com.flux/
+    </string>
+
+    <string name="select_folder">फ़ोल्डर चुनें</string>
+    <string name="select_folder_description">ऐप डेटा संग्रहीत करने के लिए स्थान चुनें, जिसमें चित्र, ऑडियो, वीडियो, दस्तावेज़ और बैकअप शामिल हैं</string>
+
+    <!-- Progress Tracker -->
+    <string name="not_started">शुरू नहीं हुआ</string>
+    <string name="in_progress">प्रगति में</string>
+    <string name="empty">खाली</string>
+    <string name="target">लक्ष्य</string>
+    <string name="start">शुरू</string>
+    <string name="progress_tracker">प्रगति ट्रैकर</string>
+
+
+    <string name="system_time_format_title">सिस्टम समय प्रारूप</string>
+    <string name="system_time_format_description">सिस्टम समय प्रारूप के अनुसार स्वचालित रूप से अनुकूलित होता है</string>
+
+    <string name="mode_title">मोड</string>
+    <string name="mode_description">सामान्य • कॉम्पैक्ट</string>
+
+    <string name="made_in_india">भारत में निर्मित</string>
+
+    <string name="compact_mode">कॉम्पैक्ट मोड</string>
+    <string name="default_mode">डिफ़ॉल्ट मोड</string>
+
+    <string name="select_mode">मोड चुनें</string>
+
+    <string name="no_options_available">कोई विकल्प उपलब्ध नहीं है</string>
+
+    <string name="current_habit_status">वर्तमान आदत स्थिति</string>
+
+    <string name="goal">लक्ष्य</string>
+    <string name="completion">पूर्णता</string>
+
+    <string name="decrement">घटाएँ</string>
+    <string name="increment">बढ़ाएँ</string>
+    <string name="log_time">समय दर्ज करें</string>
+
+    <string name="current_streak">वर्तमान %1$d</string>
+
+    <string name="habit_type_simple">सरल</string>
+    <string name="habit_type_timed">समयबद्ध</string>
+    <string name="habit_type_counter">काउंटर</string>
+
+    <string name="type">प्रकार</string>
+
+    <string name="remind_at">याद दिलाएँ</string>
+
+    <string name="timer">टाइमर</string>
+
+    <string name="active_from">सक्रिय प्रारंभ</string>
+    <string name="active_until">सक्रिय समाप्ति</string>
+
+    <string name="notify_every">हर बार सूचित करें</string>
+
+    <string name="unit">इकाई</string>
+
+    <string name="this_year">इस वर्ष</string>
+
+    <string name="reminder_time">रिमाइंडर समय</string>
+
+    <string name="end_time_greater_than_start">
+    समाप्ति समय प्रारंभ समय से बड़ा होना चाहिए
+</string>
+
+    <string name="unit_optional">इकाई (वैकल्पिक)</string>
+
+    <string name="from">से</string>
+    <string name="to">तक</string>
+
+    <string name="remind_every">हर बार याद दिलाएँ</string>
+
+    <string name="habit_reminder_count">
+    आदत दिन में %1$d बार याद दिलाएगी।
+</string>
+
+    <string name="duration">अवधि</string>
+
+    <string name="future_journal_entries_not_allowed">
+    भविष्य की जर्नल प्रविष्टियाँ अनुमत नहीं हैं
+</string>
+
+    <string name="empty_no_data_found">खाली! कोई डेटा नहीं मिला</string>
+    <string name="oops_no_language_found">ओह! कोई भाषा नहीं मिली</string>
+
+    <string name="marked_done">पूर्ण के रूप में चिह्नित</string>
+    <string name="failed">विफल</string>
+
+    <string name="category_others">अन्य</string>
+    <string name="category_default">डिफ़ॉल्ट</string>
+    <string name="category_food">भोजन</string>
+    <string name="category_emoji">इमोजी</string>
+    <string name="category_finance_analytics">वित्त - विश्लेषण</string>
+    <string name="journal_heat_map">जर्नल हीट मैप</string>
+
+    <string name="selected_spaces">चयनित स्पेस</string>
+    <string name="available_spaces">उपलब्ध स्पेस</string>
+    <string name="other_available">अन्य उपलब्ध</string>
+    <string name="passkey">पासकी</string>
+    <string name="icon">आइकन</string>
+    <string name="latest">नवीनतम</string>
+    <string name="oldest">सबसे पुराना</string>
+    <string name="filter_by_date">तारीख के अनुसार फ़िल्टर करें</string>
+    <string name="labels">लेबल</string>
+    <string name="date">तारीख</string>
+
+    <string name="view">दृश्य</string>
+    <string name="list_view">सूची दृश्य</string>
+    <string name="grid_view">ग्रिड दृश्य</string>
+    <string name="pinned">पिन किया गया</string>
+    <string name="unpinned">अनपिन किया गया</string>
+    <string name="sort_by">इसके अनुसार क्रमबद्ध करें</string>
+
+    <string name="Import">आयात करें</string>
+    <string name="create">बनाएँ</string>
+    <string name="clear">साफ़ करें</string>
+    <string name="spaces">स्पेस</string>
+    <string name="workspaces">वर्कस्पेस</string>
+    <string name="item_removed">आइटम हटा दिया गया</string>
+    <string name="undo">पूर्ववत करें</string>
+    <string name="notes_preview">नोट्स पूर्वावलोकन</string>
+    <string name="change_preview_setting_for_notes">नोट्स के पूर्वावलोकन की सेटिंग बदलें</string>
+    <string name="change_height">ऊंचाई बदलें</string>
+    <string name="normal">सामान्य</string>
+    <string name="elongated">लंबा</string>
+    <string name="video">वीडियो</string>
+    <string name="audio">ऑडियो</string>
+    <string name="compact">कॉम्पैक्ट</string>
+
+    <string name="content_copied">सामग्री कॉपी की गई!</string>
+    <string name="content_moved">सामग्री स्थानांतरित की गई!</string>
+    <string name="clone_created_successfully">क्लोन सफलतापूर्वक बनाया गया</string>
+    <string name="days_left">%1$d दिन शेष</string>
+    <string name="one_day_left">1 दिन शेष</string>
+    <string name="one_day_overdue">1 दिन विलंबित</string>
+    <string name="days_overdue">%1$d दिन विलंबित</string>
+    <string name="start_date_after_target_error">प्रारंभ तिथि लक्ष्य तिथि के बाद नहीं हो सकती</string>
+    <string name="target_date_before_start_error">लक्ष्य तिथि प्रारंभ तिथि से पहले नहीं हो सकती</string>
+    <string name="convert">परिवर्तित करें</string>
+    <string name="convert_to_note">नोट में बदलें</string>
+    <string name="convert_to_todo">टू-डू में बदलें</string>
+    <string name="convert_to_journal">जर्नल में बदलें</string>
+    <string name="clone">क्लोन</string>
+    <string name="copy">कॉपी</string>
+    <string name="move">स्थानांतरित करें</string>
+    <string name="select_workspaces">वर्कस्पेस चुनें</string>
+    <string name="turn_on_reminder">इस टू-डू सूची के लिए रिमाइंडर चालू करें!</string>
+    <string name="created">बनाया गया</string>
+    <string name="reminder">रिमाइंडर</string>
+    <string name="scheduled">निर्धारित</string>
+    <string name="true_text">सही</string>
+    <string name="false_text">गलत</string>
+    <string name="off">बंद</string>
+    <string name="completed">पूर्ण</string>
+    <string name="remaining">शेष</string>
+
+    <string name="habit_achievement">आदत की उपलब्धि</string>
+    <string name="consistency">निरंतरता</string>
+    <string name="percent">प्रतिशत</string>
+    <string name="keep_it_going">इसी तरह जारी रखें!</string>
+    <string name="longest_streak">सबसे लंबी श्रृंखला</string>
+    <string name="personal_best">सर्वश्रेष्ठ रिकॉर्ड</string>
+    <string name="last_30_days">पिछले 30 दिन</string>
+    <string name="tracked_by_flux">\@Flux द्वारा ट्रैक किया गया</string>
+    <string name="available_on_fdroid_izzyondroid">F-Droid, IzzyOnDroid पर उपलब्ध</string>
+    <string name="share_achievement">उपलब्धि साझा करें</string>
+    <string name="not_scheduled">निर्धारित नहीं</string>
+    <string name="missed">छूट गया</string>
+    <string name="pick_a_todo">एक टूडू चुनें</string>
+
+    <!-- values-hi/strings.xml -->
+    <string name="list_items">सूची आइटम</string>
+    <string name="no_checklist_for_date">इस तिथि के लिए कोई चेकलिस्ट नहीं है।</string>
+    <string name="tracking_starts_later">आपकी ट्रैकिंग बाद में शुरू होगी!</string>
+    <string name="removed_items">हटाए गए आइटम</string>
+    <string name="no_data_yet">अभी तक कोई डेटा नहीं</string>
+    <string name="item_consistency">आइटम निरंतरता</string>
+    <string name="current_streak_text">वर्तमान स्ट्रीक</string>
+    <string name="drag_horizontally_to_reorder">पुनः क्रमित करने के लिए क्षैतिज रूप से खींचें</string>
+    <string name="delete_alert">हटाने की चेतावनी!</string>
+    <string name="delete_spaces_alert">%1$s स्पेस और उनका सारा डेटा स्थायी रूप से हटाया जाएगा। इसे वापस नहीं लाया जा सकता।</string>
+
+    <string name="set_backup_password_title">बैकअप पासवर्ड सेट करें</string>
+    <string name="enter_backup_password_title">बैकअप पासवर्ड दर्ज करें</string>
+    <string name="backup_password_setting">बैकअप पासवर्ड सेट करें</string>
+    <string name="backup_encrypted">बैकअप एन्क्रिप्टेड हैं</string>
+    <string name="backup_not_encrypted">बैकअप एन्क्रिप्टेड नहीं हैं</string>
+    <string name="backup_password">बैकअप पासवर्ड</string>
+    <string name="backup_password_description">यदि यह पासवर्ड खो जाता है तो इसे पुनर्प्राप्त नहीं किया जा सकता। किसी भी डिवाइस पर इस बैकअप को पुनर्स्थापित करने के लिए इसकी आवश्यकता होगी।</string>
+    <string name="set_backup_password">बैकअप पासवर्ड सेट करें</string>
+    <string name="auto_backup_requires_password">स्वचालित बैकअप चालू है, लेकिन कोई पासवर्ड सेट नहीं है, इसलिए बैकअप सुरक्षित रूप से नहीं चल सकते। अभी पासवर्ड सेट करें या स्वचालित बैकअप बंद करें।</string>
+    <string name="go_to_settings">सेटिंग्स पर जाएँ</string>
+    <string name="change_backup_password_title">बैकअप पासवर्ड बदलें?</string>
+    <string name="change_backup_password_message">आपके वर्तमान पासवर्ड से पहले से एन्क्रिप्ट किए गए बैकअप इस परिवर्तन के बाद पुनर्स्थापित नहीं किए जा सकेंगे। नए बैकअप नए पासवर्ड का उपयोग करेंगे। इस परिवर्तन को वापस नहीं किया जा सकता।</string>
+    <string name="set_password">पासवर्ड सेट करें</string>
+    <string name="turn_off_auto_backup">स्वचालित बैकअप बंद करें</string>
+    <string name="unsupported_backup_version">असमर्थित बैकअप संस्करण: %1$s</string>
+    <string name="backup_wrong_password_or_corrupted">गलत पासवर्ड, या फ़ाइल क्षतिग्रस्त है या उसके साथ छेड़छाड़ की गई है।</string>
+
+    <string name="social_link_removed">सोशल लिंक हटाया गया</string>
+    <string name="discard_changes">परिवर्तन हटाएँ?</string>
+    <string name="discard_changes_message">आपने परिवर्तन किए हैं लेकिन शीर्षक नहीं जोड़ा है। सहेजने के लिए शीर्षक जोड़ें या परिवर्तन हटा दें।</string>
+    <string name="discard">हटाएँ</string>
+    <string name="keep_editing">संपादन जारी रखें</string>
+    <string name="add_social">सोशल लिंक जोड़ें</string>
+    <string name="changelog">परिवर्तन लॉग</string>
+    <string name="changelog_description">हर संस्करण के परिवर्तनों को देखें।</string>
+
+    <string name="change">बदलें</string>
+    <string name="change_root_directory">Flux डेटा की रूट डायरेक्टरी बदलें</string>
+    <string name="change_storage_root">स्टोरेज रूट बदलें</string>
+    <string name="couldnt_move_data">डेटा स्थानांतरित नहीं किया जा सका</string>
+    <string name="please_dont_close_app">कृपया ऐप को बंद न करें</string>
+    <string name="moving_your_data">आपका डेटा स्थानांतरित किया जा रहा है…</string>
+    <string name="more_files">…और %1$d अन्य</string>
+    <string name="files_progress">%1$d / %2$d फ़ाइलें</string>
+
+    <string name="welcome_back">आपका स्वागत है</string>
+    <string name="authenticate">प्रमाणित करें</string>
+    <string name="private_secure">निजी और सुरक्षित</string>
+    <string name="biometric_unlock_description">अपने Flux डेटा को सुरक्षित रूप से अनलॉक करने के लिए अपने डिवाइस की बायोमेट्रिक सुविधा का उपयोग करें।</string>
+    <string name="biometric_data_never_leaves">आपका बायोमेट्रिक डेटा आपके डिवाइस से कभी बाहर नहीं जाता</string>
+
+    <string name="default_screen">डिफ़ॉल्ट स्क्रीन</string>
+    <string name="default_screen_description">ऐप लॉन्च होने पर डिफ़ॉल्ट स्क्रीन खोली जाएगी</string>
+    <string name="change_default_screen_description">ऐप लॉन्च होने पर पहले लोड होने वाली स्क्रीन बदलें</string>
+    <string name="add_new_item">नया आइटम जोड़ें</string>
+    <string name="edit_item">आइटम संपादित करें</string>
+</resources>
